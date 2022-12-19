@@ -109,6 +109,7 @@ a:hover, a:active, a:focus {
 }
 
 .main-about,
+.main-eumamesa,
 .main-single-post,
 .main-gallery,
 .main-contact {
@@ -300,6 +301,9 @@ a:hover, a:active, a:focus {
   height: 100vh;
 }
 
+.main-eumamesa {
+  background: url('../images/pizza-e-uma-mesa.png') no-repeat;
+}
 .main-ementa {
   background: url('../images/Crescer-Restaurante-4.jpg') no-repeat;
 }
@@ -730,6 +734,236 @@ a:hover, a:active, a:focus {
 }
 
 
+/*
+    Section Story of the page - É Uma Mesa
+*/
+
+#story{
+  margin: 0;
+  background-image: linear-gradient(#f8f7fc,#bfba5562 );
+}
+#story .explore-story .row{
+  margin-top: 2rem;
+ 
+}
+#story .explore-story .card{
+  border: none; 
+  background-image:white;
+  color: rgb(35, 35, 35);
+  align-items: center;
+}
+#story .explore-story .col-lg-4{
+    margin-top: 3rem;
+}
+
+
+#story .explore-story .card img:hover{
+  box-shadow: 0 0 0 2px #bfba55;
+  transition: all .4s ease-out 0s;
+}
+#story .explore-story .card p{
+  color: rgb(35, 35, 35);
+ 
+}
+.p-story{
+  margin-top: 9rem;
+}
+#story .explore-story .card h3{
+  margin-top: 10rem;
+}
+#story .explore-story .card h4 {
+  font-size: 1.4rem;
+  margin: 0;
+  line-height: 2.9rem;
+  color: rgb(35, 35, 35);
+  font-weight: 600;
+  letter-spacing:0;
+
+}
+#story .explore-story .card h3 span{
+  font-size: 1.9rem;
+  color: #bfba55;
+}
+
+
+#story .btn{
+  background: #bfba55;
+  border: 2px solid #ffffff;
+  color: #444;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 13px 22px;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+
+ #story .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  border: 2px solid #bfba55;
+}
+
+/*
+    End Section Story of the page - É Uma Mesa
+*/
+
+/*-----------------------------------------------------------------------------------------------*/
+/*
+     Section step by step
+*/
+#step-by-step{
+  margin: 0;
+  margin-bottom: 6rem;
+}
+#step-by-step .explore-step-by-step .row{
+  margin-top: 2rem;
+ 
+}
+#step-by-step .explore-step-by-step .card{
+  border: none; 
+  background-image:white;
+  color: rgb(35, 35, 35);
+  align-items: center;
+}
+#step-by-step .explore-step-by-step .col-lg-3{
+    margin-top: 3rem;
+}
+
+#step-by-step .explore-step-by-step .card h4 {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #bfba55;
+  font-weight: 600;
+  letter-spacing:0;
+}
+
+/*
+    End Section step by step
+*/
+
+/*-----------------------------------------------------------------------------------------------*/
+/*
+   Section Legacy
+*/
+
+#legacy{
+  margin: 0;
+  padding-bottom: 3rem;
+  background-image: linear-gradient(#f8f7fc,#bfba5562 );
+}
+#legacy .explore-legacy .row{
+  margin-top: 4rem;
+
+ 
+}
+#legacy .explore-legacy .card{
+  border: none; 
+  background-image:white;
+  color: rgb(35, 35, 35);
+  align-items: center;
+}
+
+
+/*
+  End Section Legacy
+*/
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*
+  Section Chef
+*/
+#chef{
+ margin: 0;
+}
+#chef .explore-chef{
+  width: 100%;
+  background: url(../images/Crescer-Restaurante-4.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+#chef .explore-chef .row{
+  margin-top: 4rem;
+
+}
+#chef .explore-chef .col-lg-4 img{
+  border:2px solid #bfba55 ;
+}
+#chef .explore-chef .col-lg-4 img:hover{
+border:2px solid white;
+}
+#chef .explore-chef .col-lg-5 {
+    background: white;
+    margin-top: 2rem;
+    border:2px solid white;
+ }
+ #chef .explore-chef .col-lg-5:hover{
+    border:2px solid #bfba55 ;
+ }
+ 
+#chef .explore-chef .col-lg-6 img {
+  border:2px solid white;
+}
+#chef .explore-chef .col-lg-6 img:hover{
+  border:2px solid #bfba55 ;
+}
+#chef .explore-chef .col-lg-8{
+  padding-bottom: 3rem;
+}
+#chef .explore-chef .col-lg-8 h2 span {
+  font-size: 3rem;
+  margin: 0;
+  margin-top: 6rem;
+  font-weight: 700;
+  color: #bfba55;
+  letter-spacing:0;
+  line-height: 2rem;
+}
+#chef .explore-chef .col-lg-8 h4 {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-top: 6rem;
+  font-weight: 700;
+  color: rgb(103, 101, 101);
+  letter-spacing:0;
+  line-height: 2rem;
+}
+
+#chef .explore-chef .col-lg-8 p{
+  color: rgb(35, 35, 35);
+  margin-top: 3rem;
+  line-height: 2rem;
+}
+
+
+#chef .btn{
+  background: #bfba55;
+  border: 2px solid #ffffff;
+  color: #444;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 13px 22px;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+
+#chef .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  border: 2px solid #bfba55;
+}
+/*
+  End Section Chef
+*/
+/*-----------------------------------------------------------------------------------------------*/
 /*++++++++++++++++++++++++
     Section Chefs
 *++++++++++++++++++++++++++*/
@@ -1071,11 +1305,12 @@ a:hover, a:active, a:focus {
 
 footer {
     padding: 2rem 0 3.5rem 0;
-    background-image: linear-gradient(#b5b1b1,#fff );
+    background-image: linear-gradient(#ffffff,#bfba5500 );
     position: relative;
 }
 footer .container a{
   margin-top: 4rem;
+
 }
 footer .col-md-4 .fa {
   color: #ffffff;
@@ -1084,7 +1319,7 @@ footer .col-md-4 .fa {
 }
 
 footer .col-md-4 h3{
-  color: white;
+  color: rgb(35, 35, 35);
 }
 footer .col-md-4 h4{
   color: black;
@@ -1194,7 +1429,7 @@ footer .footer-copyright {
 
 .social-icon li a {
     border: 2px solid #292929;
-    color: #292929;
+    color: #bfba55;
     border-radius: 100px;
     cursor: pointer;
     font-size: 16px;

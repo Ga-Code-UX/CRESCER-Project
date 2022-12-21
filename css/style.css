@@ -110,6 +110,7 @@ a:hover, a:active, a:focus {
 
 .main-about,
 .main-eumamesa,
+.main-gallery-eumamesa,
 .main-single-post,
 .main-gallery,
 .main-contact {
@@ -303,6 +304,9 @@ a:hover, a:active, a:focus {
 
 .main-eumamesa {
   background: url('../images/pizza-e-uma-mesa.png') no-repeat;
+}
+.main-gallery-eumamesa {
+  background: url('../images/banner-galeria-eumamesa.jpg') no-repeat;
 }
 .main-ementa {
   background: url('../images/Crescer-Restaurante-4.jpg') no-repeat;
@@ -739,8 +743,7 @@ a:hover, a:active, a:focus {
 */
 
 #story{
-  margin: 0;
-  background-image: linear-gradient(#f8f7fc,#bfba5562 );
+  margin: 0; 
 }
 #story .explore-story .row{
   margin-top: 2rem;
@@ -816,7 +819,8 @@ a:hover, a:active, a:focus {
 */
 #step-by-step{
   margin: 0;
-  margin-bottom: 6rem;
+  background-image: linear-gradient(#f8f7fc,#bfba5562 );
+  padding-bottom: 6rem;
 }
 #step-by-step .explore-step-by-step .row{
   margin-top: 2rem;
@@ -1304,14 +1308,15 @@ border:2px solid white;
 -----------------------------------------*/
 
 footer {
-    padding: 2rem 0 3.5rem 0;
-    background-image: linear-gradient(#ffffff,#bfba5500 );
+    padding: 2rem 0 3.5rem 0; 
+    background-image: linear-gradient(#ffffff,#b2b3b6 );
     position: relative;
 }
 footer .container a{
   margin-top: 4rem;
 
 }
+
 footer .col-md-4 .fa {
   color: #ffffff;
   padding-right: 8px;
@@ -1320,6 +1325,7 @@ footer .col-md-4 .fa {
 
 footer .col-md-4 h3{
   color: rgb(35, 35, 35);
+  font-size: 1.4rem;
 }
 footer .col-md-4 h4{
   color: black;
@@ -1333,6 +1339,24 @@ footer .col-md-4 p a{
 }
 footer .col-md-4{
   width: 300px;
+  margin-top: 3rem;
+}
+
+footer .col-md-4 ul li{
+  list-style: none;
+  text-align: left;
+  text-decoration:#bfba55 wavy underline ;
+}
+footer .col-md-4 ul li a{
+  color: #292929;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: all 0.4s ease-in-out;
+  line-height:2.4rem;
+}
+footer .col-md-4 ul li a:hover {
+  color: #bfba55;
+  transform: scale(1.1);
 }
 footer .col-md-6 a{
   color: black;
@@ -1342,6 +1366,7 @@ footer .col-md-6 a{
   font-size: 1.3rem;
  
 }
+
 footer  .col-md-12 .link {
   position: relative;
   padding: 0;
@@ -1429,10 +1454,10 @@ footer .footer-copyright {
 
 .social-icon li a {
     border: 2px solid #292929;
-    color: #bfba55;
+    color: #292929;
     border-radius: 100px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 19px;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
     width: 50px;
@@ -1448,6 +1473,7 @@ footer .footer-copyright {
     border-color: #bfba55;
     color: #bfba55;
     transform: scale(1.1);
+    background-color: white;
 }
 
 

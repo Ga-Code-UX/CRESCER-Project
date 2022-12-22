@@ -111,6 +111,7 @@ a:hover, a:active, a:focus {
 .main-about,
 .main-eumamesa,
 .main-gallery-eumamesa,
+.main-menu-eumamesa,
 .main-single-post,
 .main-gallery,
 .main-contact {
@@ -308,6 +309,10 @@ a:hover, a:active, a:focus {
 .main-gallery-eumamesa {
   background: url('../images/banner-galeria-eumamesa.jpg') no-repeat;
 }
+.main-menu-eumamesa {
+  background: url('../images/banner-menu-eumamesa.jpg') no-repeat;
+}
+
 .main-ementa {
   background: url('../images/Crescer-Restaurante-4.jpg') no-repeat;
 }
@@ -968,6 +973,61 @@ border:2px solid white;
   End Section Chef
 */
 /*-----------------------------------------------------------------------------------------------*/
+
+/*
+Section E Uma Mesa Menu
+*/
+/*-----------------------------------------------------------------------------------------------*/
+#eumamesa-menu{
+ margin-top: 10rem;
+ }
+ #eumamesa-menu .explore-eumamesa-menu .col-lg-4  {
+  background: white;
+  margin-top: 2rem;
+ 
+}
+ #eumamesa-menu .explore-eumamesa-menu .col-lg-12  {
+  background: white;
+  margin-top: 2rem;
+ 
+}
+#eumamesa-menu .explore-eumamesa-menu .col-lg-12 h1,
+#eumamesa-menu .explore-eumamesa-menu .col-lg-12 h2, 
+#eumamesa-menu .explore-eumamesa-menu .col-lg-12 h3 {
+  text-align: center;
+}
+#eumamesa-menu .explore-eumamesa-menu .col-lg-12 h3{
+  color: #bfba55;
+}
+#eumamesa-menu .explore-eumamesa-menu .col-lg-12 h4{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+
+#eumamesa-menu .btn{
+  background: #bfba55;
+  border: 2px solid #ffffff;
+  color: #444;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 13px 22px;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+
+#eumamesa-menu .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  border: 2px solid #bfba55;
+}
+
+
 /*++++++++++++++++++++++++
     Section Chefs
 *++++++++++++++++++++++++++*/

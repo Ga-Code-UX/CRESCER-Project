@@ -112,6 +112,7 @@ a:hover, a:active, a:focus {
 .main-eumamesa,
 .main-gallery-eumamesa,
 .main-menu-eumamesa,
+.main-e-um-restaurante,
 .main-single-post,
 .main-gallery,
 .main-contact {
@@ -326,7 +327,9 @@ a:hover, a:active, a:focus {
 .main-ementa {
   background: url('../images/Crescer-Restaurante-4.jpg') no-repeat;
 }
-
+.main-e-um-restaurante{
+  background: url('../images/e-um-restaurante.jpg') no-repeat;
+}
 .main-single-post {
   background: url('../images/single-post-bg.jpg') no-repeat;
 }
@@ -999,21 +1002,21 @@ Section E Uma Mesa Menu
    reserve section              
 -----------------------------------------*/
 
-#reserve-eumamesa .col-md-4 {
+#reserve .col-md-4 {
   padding-left: 0px;
 }
-#reserve-eumamesa {
+#reserve  {
   margin-top: 10rem;
 }
-#reserve-eumamesa .col-md-12 {
+#reserve  .col-md-12 {
   padding-left: 0;
 }
 
-#reserve-eumamesa form {
+#reserve  form {
   padding-top: 32px;
 }
 
-#reserve-eumamesa .form-control {
+#reserve  .form-control {
   border: 2px solid #d1cfcf;
   box-shadow: none;
   margin-top: 10px;
@@ -1021,15 +1024,15 @@ Section E Uma Mesa Menu
   transition: all 0.4s ease-in-out;
 }
 
-#reserve-eumamesa .form-control:hover {
+#reserve  .form-control:hover {
   border-color: #555;
 }
 
-#reserve-eumamesa input {
+#reserve  input {
   height: 50px;
 }
 
-#reserve-eumamesa input[type="submit"] {
+#reserve  input[type="submit"] {
   background: #bfba55;
   border-radius: 100px;
   border: none;
@@ -1039,7 +1042,7 @@ Section E Uma Mesa Menu
   transition: all 0.4s ease-in-out;
 }
 
-#reserve-eumamesa input[type="submit"]:hover {
+#reserve  input[type="submit"]:hover {
   background: #ffffff;
   border-color: #ffffff;
   color: #444;
@@ -1048,9 +1051,72 @@ Section E Uma Mesa Menu
 
 
 /*---------------------------------------
-   Blog section              
+   É Um Restaurante laging Page section              
 -----------------------------------------*/
+#page-home{
+  margin: 0;
+  background-image: linear-gradient(#f8f7fc,#bfba553f );
+}
+#page-home .explore-page-home .row{
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+#page-home .explore-page-home{
+    background-image: linear-gradient(#f8f7fc,#bfba553f );
+}
+#page-home .explore-page-home .col-lg-6{
+  background-image: linear-gradient(#f8f7fc);
 
+}
+#page-home .explore-page-home .col-lg-12{
+  background-image: linear-gradient(#f8f7fc );
+}
+#page-home .explore-page-home .col-lg-12 h4 {
+  font-size: 2rem;
+  color: rgb(35, 35, 35);
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing:0;
+}
+#page-home .explore-page-home .col-lg-12 h3{
+  color: #bfba55;
+}
+#page-home .explore-page-home .col-lg-6 .card h3{
+    margin-top: 10rem;
+}
+#page-home .explore-page-home .col-lg-6 .card h4{
+  font-size: 1.8rem;
+  color: #444;
+  font-weight: 300;
+  line-height: 2.6rem;
+  letter-spacing:0;
+}
+
+
+#page-home  .btn{
+  background: #bfba55;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: dotted;
+  border: 2px solid #ffffff;
+  color: #444;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 2rem;
+  margin-left: 17rem;
+  transition: all 0.4s ease-in-out;
+}
+
+#page-home .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  border: 2px solid #bfba55;
+}
 .blog-post-thumb {
   border-bottom: 1px solid #f0f0f0;
   padding-top: 32px;

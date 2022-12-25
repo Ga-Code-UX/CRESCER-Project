@@ -1055,15 +1055,13 @@ Section E Uma Mesa Menu
 -----------------------------------------*/
 #page-home{
   margin: 0;
-  background-image: linear-gradient(#f8f7fc,#bfba553f );
+  background-color: white;
 }
 #page-home .explore-page-home .row{
   margin-top: 2rem;
   padding-bottom: 2rem;
 }
-#page-home .explore-page-home{
-    background-image: linear-gradient(#f8f7fc,#bfba553f );
-}
+
 #page-home .explore-page-home .col-lg-6{
   background-image: linear-gradient(#f8f7fc);
 

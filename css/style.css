@@ -139,6 +139,16 @@ a:hover, a:active, a:focus {
   right: 0;
   bottom: 0;
 }
+
+.overlay-banner-class {
+  background: rgba(0,0,0,0.7 ); 
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
@@ -1069,9 +1079,16 @@ Section E Uma Mesa Menu
 #page-home .explore-page-home .col-lg-12{
   background-image: linear-gradient(#f8f7fc );
 }
-#page-home .explore-page-home .col-lg-12 h4 {
+#page-home .explore-page-home .col-lg-12 h2 {
   font-size: 2rem;
   color: rgb(35, 35, 35);
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing:0;
+}
+#page-home .explore-page-home .col-lg-12 h4 {
+  font-size: 1.5rem;
+  color: rgb(93, 91, 91);
   font-weight: 600;
   line-height: 2.6rem;
   letter-spacing:0;
@@ -1096,7 +1113,7 @@ Section E Uma Mesa Menu
   width: 200px;
   height: 60px;
   text-align: center;
-  border: dotted;
+
   border: 2px solid #ffffff;
   color: #444;
   font-family: 'Merriweather', serif;
@@ -1115,163 +1132,116 @@ Section E Uma Mesa Menu
   border-color: #ffffff;
   border: 2px solid #bfba55;
 }
-.blog-post-thumb {
-  border-bottom: 1px solid #f0f0f0;
-  padding-top: 32px;
-  padding-bottom: 62px;
-  margin-bottom: 32px;
+
+/*---------------------------------------
+ Banner-class section              
+-----------------------------------------*/
+#banner-class{
+  margin: 0;
+  position: relative;
+  background: url(../images/Formacao1-e-um-restaurante.png) no-repeat;
+  background-size: cover;
+  height: 65vh;
+  align-items: center;
+}
+#banner-class .explore-banner-class .row{
+  margin-top: 2rem;
+  
 }
 
-.blog-post-thumb:last-child {
-  border-bottom: 0px;
-  padding-bottom: 32px;
-  margin-bottom: 0px;
+#banner-class .explore-banner-class .col-lg-12{
+  text-align: center;
+  align-items: center;
 }
 
-.blog-post-image,
-.blog-post-video {
-  padding-top: 22px;
-  padding-bottom: 22px;
-  width: 100%;
+#banner-class .explore-banner-class .col-lg-12 h2 {
+  font-size: 2rem;
+  margin-top: 8rem;
+  color: white;
+  font-weight: bold;
+  line-height: 3rem;
+  letter-spacing:0;
 }
-
-#about img,
-.blog-post-image img {
-  border-radius: 1px;
+#banner-class .explore-banner-class .col-lg-12 p {
+  color: white;
 }
-
-.blog-post-title a {
-  color: #222;
+#banner-class .explore-banner-class .col-lg-12 h4 {
+  font-size: 1.5rem;
+  color: #bfba55;
+  line-height: 2.6rem;
+  letter-spacing:0;
 }
-
-.blog-post-title a:hover {
+#banner-class .explore-banner-class .col-lg-12 h3{
   color: #bfba55;
 }
-
-.blog-post-format {
-  padding-bottom: 22px;
+/*---------------------------------------
+  food Specialty section              
+-----------------------------------------*/
+#food-specialty{
+    padding-bottom: 10rem;
+}
+#food-specialty .explore-food-specialty .col-lg-12{
+  text-align: center;
+  align-items: center;
 }
 
-.blog-post-format span {
-  letter-spacing: 0.5px;
-  padding-right: 12px;
-}
-
-.blog-post-format span a {
-  color: #333;
-}
-
-.blog-post-format span img {
-  display: inline-block;
-  width: 42px;
-  margin-right: 4px;
-}
-
-.blog-post-des blockquote {
-  margin: 22px;
-}
-
-.blog-post-des .btn {
-  border-radius: 100px;
-  color: #777;
+#food-specialty .explore-food-specialty .col-lg-12 h2 {
+  font-size: 2rem;
+  margin-top: 8rem;
   font-weight: bold;
-  letter-spacing: 1px;
-  padding: 14px 28px;
-  margin-top: 26px;
-  transition: all 0.4s ease-in-out;
+  line-height: 3rem;
+  letter-spacing:0;
+}
+/*---------------------------------------
+   Banner Menu-Page section              
+-----------------------------------------*/
+#banner-menu-page{
+  width: 100%;
+  padding-bottom: 15rem;
+  background: url(../images/banner1-e-um-restaurante.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#banner-menu-page .explore-banner-menu-page{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.blog-post-des .btn:hover {
+#banner-menu-page .explore-banner-menu-page .col-lg-6{
+    margin-top: 14rem;
+    margin-left: 28rem;
+    background-color: #ffffffce;
+    padding-bottom: 2rem;
+}
+#banner-menu-page .explore-banner-menu-page .col-lg-6 p{
+    color: rgb(93, 91, 91);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+#banner-menu-page  .btn{
   background: #bfba55;
-  border-color: transparent;
-  color: #ffffff;
-}
-
-.blog-author {
-  border-top: 1px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-top: 42px;
-  margin-bottom: 42px;
-}
-
-.blog-author .media img {
-  display: inline-block;
-  width: 90px;
-  margin-right: 12px;
-}
-
-.blog-author .media a,
-.blog-comment .media h3 {
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: 2px solid #ffffff;
   color: #444;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-.blog-comment {
-  border-bottom: 1px solid #f0f0f0;
-  padding-bottom: 32px;
-  margin-bottom: 42px;
-}
-
-.blog-comment .media:nth-child(2) {
-  padding-top: 22px;
-}
-
-.blog-comment .media img {
-  width: 82px;
-  margin-right: 12px;
-}
-
-.blog-comment .media h3 {
-  display: inline-block;
-  padding-right: 14px;
-}
-
-
-.blog-comment-form h3 {
-  padding-bottom: 18px;
-}
-
-#about .col-md-6, #about .col-md-4,
-.blog-comment-form .col-md-4 {
-  padding-left: 0px;
-}
-
-.blog-comment-form .form-control {
-  box-shadow: none;
-  border: 2px solid #f0f0f0;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transition: all 0.4s ease-in-out;
-}
-
-.blog-comment-form .form-control:hover {
-  border-color: #555;
-}
-
-.blog-comment-form input {
-  height: 45px;
-}
-
-.blog-comment-form input[type="submit"] {
-  background: #bfba55;
-  border-radius: 100px;
-  border: none;
-  color: #ffffff;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
   font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 2rem;
   transition: all 0.4s ease-in-out;
 }
-
-.blog-comment-form input[type="submit"]:hover {
-  background: #333;
-  border-color: transparent;
-  color: #ffffff;
+#banner-menu-page  .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  border: 2px solid #bfba55;
 }
-
-
-
 /*---------------------------------------
    Blog Single Post section              
 -----------------------------------------*/

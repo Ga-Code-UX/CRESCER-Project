@@ -696,7 +696,7 @@ a:hover, a:active, a:focus {
 */
 #step-by-step{
   margin: 0;
-  background-image: linear-gradient(#f8f7fc,#bfba5562 );
+  background-image: linear-gradient(#f8f7fc,#bfba5536 );
   padding-bottom: 6rem;
 }
 #step-by-step .explore-step-by-step .row{
@@ -769,7 +769,7 @@ a:hover, a:active, a:focus {
 
 #chef .explore-chef .row{
   margin-top: 4rem;
-
+ 
 }
 #chef .explore-chef .col-lg-4 img{
   border:2px solid #bfba55 ;
@@ -792,8 +792,8 @@ border:2px solid white;
 #chef .explore-chef .col-lg-6 img:hover{
   border:2px solid #bfba55 ;
 }
-#chef .explore-chef .col-lg-8{
-  padding-bottom: 3rem;
+#chef .explore-chef .col-lg-8 .col-lg-5{
+  padding-bottom: 2rem;
 }
 #chef .explore-chef .col-lg-8 h2 span {
   font-size: 3rem;
@@ -807,7 +807,7 @@ border:2px solid white;
 #chef .explore-chef .col-lg-8 h4 {
   font-size: 1.4rem;
   margin: 0;
-  margin-top: 6rem;
+  margin-top: 1rem;
   font-weight: 700;
   color: rgb(103, 101, 101);
   letter-spacing:0;
@@ -1076,6 +1076,20 @@ Section E Uma Mesa Menu
   background-image: linear-gradient(#f8f7fc);
 
 }
+#page-home .explore-page-home .col-lg-6 img{
+  margin: .3rem;
+  /*transform:
+  perspective(1000px)
+  rotateX(4deg)
+  rotateY(-16deg)
+  rotateZ(4deg);
+  box-shadow: 24px 16px 64px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 2px;*/
+}
+#page-home .explore-page-home .col-lg-6 img:hover{
+  border: 2px solid #bfba55; 
+  transition: all 0.4s ease-in-out;
+}
 #page-home .explore-page-home .col-lg-12{
   background-image: linear-gradient(#f8f7fc );
 }
@@ -1097,7 +1111,8 @@ Section E Uma Mesa Menu
   color: #bfba55;
 }
 #page-home .explore-page-home .col-lg-6 .card h3{
-    margin-top: 10rem;
+    margin-top: 2rem;
+    margin: 3rem;
 }
 #page-home .explore-page-home .col-lg-6 .card h4{
   font-size: 1.8rem;
@@ -1160,7 +1175,10 @@ Section E Uma Mesa Menu
   color: white;
   font-weight: bold;
   line-height: 3rem;
+  padding-bottom: 14px;
+  margin-bottom: 0px;
   letter-spacing:0;
+
 }
 #banner-class .explore-banner-class .col-lg-12 p {
   color: white;
@@ -1170,9 +1188,22 @@ Section E Uma Mesa Menu
   color: #bfba55;
   line-height: 2.6rem;
   letter-spacing:0;
+  
 }
 #banner-class .explore-banner-class .col-lg-12 h3{
   color: #bfba55;
+  text-shadow: 0 1px 0 #ccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
 }
 /*---------------------------------------
   food Specialty section              
@@ -1184,7 +1215,17 @@ Section E Uma Mesa Menu
   text-align: center;
   align-items: center;
 }
-
+#food-specialty .explore-food-specialty .col-lg-12 .col-lg-4 h4{
+  font-size: 1.4rem;
+}
+#food-specialty .explore-food-specialty .col-lg-12 .col-lg-4 h4:hover{
+  font-size: 1.4rem;
+  color: #bfba55;
+}
+#food-specialty .explore-food-specialty .col-lg-12 .col-lg-4 img:hover{
+    border: 2px solid #bfba55;
+    transition: all 0.4s ease-in-out;
+}
 #food-specialty .explore-food-specialty .col-lg-12 h2 {
   font-size: 2rem;
   margin-top: 8rem;
@@ -1242,28 +1283,7 @@ Section E Uma Mesa Menu
   border-color: #ffffff;
   border: 2px solid #bfba55;
 }
-/*---------------------------------------
-   Blog Single Post section              
------------------------------------------*/
 
-#blog-single-post .blog-single-post-image {
-  padding-top: 22px;
-}
-
-#blog-single-post .blog-single-post-image .col-md-4 {
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 22px;
-}
-
-#blog-single-post .blog-single-post-image img {
-  border-radius: 1px;
-  padding-right: 12px;
-}
-
-#blog-single-post .blog-post-des h3 {
-  padding-top: 16px;
-}
 
 
 

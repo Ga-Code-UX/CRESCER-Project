@@ -621,6 +621,7 @@ a:hover, a:active, a:focus {
 
 #story{
   margin: 0; 
+  padding-bottom: 1rem;
 }
 #story .explore-story .row{
   margin-top: 2rem;

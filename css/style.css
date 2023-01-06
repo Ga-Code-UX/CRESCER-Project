@@ -113,6 +113,9 @@ a:hover, a:active, a:focus {
 .main-gallery-eumamesa,
 .main-menu-eumamesa,
 .main-e-um-restaurante,
+.main-menu-e-um-restaurante,
+.main-gallery-e-um-restaurante,
+.main-e-um-almoco,
 .main-single-post,
 .main-gallery,
 .main-contact {
@@ -334,8 +337,11 @@ a:hover, a:active, a:focus {
   background: url('../images/banner-menu-eumamesa.jpg') no-repeat;
 }
 
-.main-ementa {
-  background: url('../images/Crescer-Restaurante-4.jpg') no-repeat;
+.main-menu-e-um-restaurante {
+  background: url('../images/banner-menu-e-um-restaurante.jpg') no-repeat;
+}
+.main-gallery-e-um-restaurante {
+  background: url('../images/banner-galeriaa-e-um-restaurante.jpg') no-repeat;
 }
 .main-e-um-restaurante{
   background: url('../images/e-um-restaurante.jpg') no-repeat;
@@ -343,7 +349,9 @@ a:hover, a:active, a:focus {
 .main-single-post {
   background: url('../images/single-post-bg.jpg') no-repeat;
 }
-
+.main-e-um-almoco{
+  background: url('../images/banner-e-um-almoco.jpg') no-repeat;
+}
 .main-gallery {
   background: url('../images/gallery-bg.jpg') no-repeat;
 }
@@ -390,118 +398,6 @@ a:hover, a:active, a:focus {
   border-color: #ffffff;
   color: #ffffff;
 }
- 
-
-
-/*---------------------------------------
-   Menu É Um Restaurante section              
------------------------------------------*/
-
-#menu  .col-md-6{
-  padding-top: 22px;
-  padding-bottom: 32px;
-}
-#menu  .col-md-6 p:hover{
-  color: #bfba55;
-}
-#menu  .col-md-6 h3{
-  font-size: 1.5rem;
-}
-#menu  .col-md-6 h3:hover{
-  color: #bfba55;
-}
-#menu  .col-md-6 hr{
-  margin: 0;
-}
-#menu .col-md-6 img:hover {
-  border: 1px solid #bfba55;
-}
-
-#menu .col-md-4 {
-  padding-bottom: 32px;
-}
-
-#menu .col-md-4 img {
-  padding-top: 12px;
-}
-#menu-two .menu-two-section{
-  width: 100%;
-  height: 48rem;
-  background:url(../images/bacalhau--.png) no-repeat center;
-  background-size: cover;
-  text-align: center;
-  margin-top: 2rem;
-  background-attachment: fixed;
-  background-position: 0 71.9125px;
-  padding:4.375rem 0 ;
-    
-}
-#menu-two .menu-two-section .col-md-6 {
-  padding-top: 22px;
-  text-align: left;
-  padding-bottom: 32px;
-}
-
-#menu-two .menu-two-section  .col-md-6 p:hover{
-  color: #bfba55;
-}
-#menu-two .menu-two-section  .col-md-6 h3{
-  font-size: 1.5rem;
-}
-#menu-two .menu-two-section  .col-md-6 h3:hover{
-  color: #bfba55;
-}
-#menu-two .menu-two-section  .col-md-6 hr{
-  margin: 0;
-}
-
-#menu-three{
-  width: 100%;
-  background:url(../images/Crescer-Restaurante-6.jpg) no-repeat center;
-  background-size: cover;
-  opacity: 0.9;
-  text-align: center;
-  background-attachment: fixed;
-  background-position: 0 71.9125px;
-  padding:4.375rem 0 ;
-    
-}
-
-
-#menu-three .explore-menu-three .card{
-  border: none; 
-  background-image: linear-gradient(#b5b1b1,#fff );
-  color: rgb(35, 35, 35);
-  align-items: center;
-}
-#menu-three .explore-menu-three .card:hover{
-  transition: var(--transition-1);
-  box-shadow: 0 .2rem .5rem rgba(0,0,0,.7);
-
-
-}
-#menu-three .explore-menu-three .card p{
-  color: rgb(35, 35, 35);
-}
-#menu-three .explore-menu-three .card p:hover{
-  color: #bfba55;
-}
-#menu-three .explore-menu-three .card h2{
- padding: 1.5rem;
-}
-#menu-three .explore-menu-three .card hr{
-  margin:1px;
-}
-.text_content{
-  width: 70%;
-  margin: auto;
-  color: white;
-}
-
-/*---------------------------------------
-   Project section              
------------------------------------------*/
-
 #project{
   margin: 0;
 }
@@ -614,10 +510,100 @@ a:hover, a:active, a:focus {
   border: 2px solid #cbc9c9;
 }
 
+/*-------------------------------------------------------------------------------------------------------------------
+                                                        To All The Pages Sections 
+-------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------Gallery Section-----------------------------------------*/
+#gallery span {
+  display: block;
+  padding-bottom: 32px;
+}
 
-/*
-    Section Story of the page - É Uma Mesa
-*/
+#gallery .col-md-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#gallery .gallery-thumb {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+  cursor: pointer;
+  display: block;
+  position: relative;
+  top: 0px;
+  transition: all 0.4s ease-in-out;
+}
+
+#gallery .gallery-thumb:hover {
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+
+#gallery .gallery-thumb img {
+  width: 100%;
+}
+
+#gallery .col-md-12 p {
+  padding-top: 22px;
+  text-align: center;
+}
+
+
+/*---------------------------------------------------reserve section-----------------------------------------*/
+
+#reserve .col-md-4 {
+  padding-left: 0px;
+}
+#reserve  {
+  margin-top: 10rem;
+}
+#reserve  .col-md-12 {
+  padding-left: 0;
+}
+
+#reserve  form {
+  padding-top: 32px;
+}
+
+#reserve  .form-control {
+  border: 2px solid #d1cfcf;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+#reserve  .form-control:hover {
+  border-color: #555;
+}
+
+#reserve  input {
+  height: 50px;
+}
+
+#reserve  input[type="submit"] {
+  background: rgb(35, 35, 35);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+}
+
+#reserve  input[type="submit"]:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #444;
+  border: 2px solid #bfba55;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                          É Uma Mesa   
+-------------------------------------------------------------------------------------------------------------------*/
+
+/* ---------------------------------------------------- Section Story --------------------------------------------*/
 
 #story{
   margin: 0; 
@@ -636,8 +622,6 @@ a:hover, a:active, a:focus {
 #story .explore-story .col-lg-4{
     margin-top: 3rem;
 }
-
-
 #story .explore-story .card img:hover{
   box-shadow: 0 0 0 2px #bfba55;
   transition: all .4s ease-out 0s;
@@ -665,8 +649,6 @@ a:hover, a:active, a:focus {
   font-size: 1.9rem;
   color: #bfba55;
 }
-
-
 #story .btn{
   background: #bfba55;
   border: 2px solid #ffffff;
@@ -680,21 +662,13 @@ a:hover, a:active, a:focus {
   margin-top: 2rem;
   transition: all 0.4s ease-in-out;
 }
-
  #story .btn:hover {
   background: #ffffff;
   border-color: #ffffff;
   border: 2px solid #bfba55;
 }
 
-/*
-    End Section Story of the page - É Uma Mesa
-*/
-
-/*-----------------------------------------------------------------------------------------------*/
-/*
-     Section step by step
-*/
+/*----------------------------------------- Step by Step Section -----------------------------------------------*/
 #step-by-step{
   margin: 0;
   background-image: linear-gradient(#f8f7fc,#bfba5536 );
@@ -722,14 +696,7 @@ a:hover, a:active, a:focus {
   letter-spacing:0;
 }
 
-/*
-    End Section step by step
-*/
-
-/*-----------------------------------------------------------------------------------------------*/
-/*
-   Section Legacy
-*/
+/* ------------------------------------------- Legacy Section  ----------------------------------------------*/
 
 #legacy{
   margin: 0;
@@ -747,19 +714,9 @@ a:hover, a:active, a:focus {
   align-items: center;
 }
 
-
-/*
-  End Section Legacy
-*/
-
-/*-----------------------------------------------------------------------------------------------*/
-
-/*
-  Section Chef
-*/
+/* --------------------------------------------------Chef Section-----------------------------------------------*/
 #chef{
- margin: 0;
- 
+ margin: 0; 
 }
 #chef .explore-chef{
   width: 100%;
@@ -767,12 +724,10 @@ a:hover, a:active, a:focus {
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 2rem;
-  
 }
 
 #chef .explore-chef .row{
   margin-top: 4rem;
- 
 }
 #chef .explore-chef .col-lg-4 img{
   border:2px solid #bfba55 ;
@@ -822,8 +777,6 @@ border:2px solid white;
   margin-top: 3rem;
   line-height: 2rem;
 }
-
-
 #chef .btn{
   background: #bfba55;
   border: 2px solid #ffffff;
@@ -837,21 +790,13 @@ border:2px solid white;
   margin-top: 2rem;
   transition: all 0.4s ease-in-out;
 }
-
 #chef .btn:hover {
   background: #ffffff;
   border-color: #ffffff;
   border: 2px solid #bfba55;
 }
-/*
-  End Section Chef
-*/
-/*-----------------------------------------------------------------------------------------------*/
 
-/*
-Section E Uma Mesa Menu
-*/
-/*-----------------------------------------------------------------------------------------------*/
+/*--------------------------------------- Menu Section E Uma Mesa-----------------------------------------------*/
 
 #eumamesa-menu{
   background-color: white;
@@ -886,8 +831,6 @@ Section E Uma Mesa Menu
   font-weight: 700;
   margin-top: 0;
 }
-
-
 #eumamesa-menu .btn{
   background: #bfba55;
   border: 2px solid #ffffff;
@@ -911,101 +854,12 @@ Section E Uma Mesa Menu
 
 
 
-/*---------------------------------------
-   Gallery section              
------------------------------------------*/
 
-#gallery span {
-  display: block;
-  padding-bottom: 32px;
-}
+/*-------------------------------------------------------------------------------------------------------------
+                                          É Um Restaurante              
+--------------------------------------------------------------------------------------------------------------*/
 
-#gallery .col-md-6 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-#gallery .gallery-thumb {
-  background-color: #ffffff;
-  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
-  cursor: pointer;
-  display: block;
-  position: relative;
-  top: 0px;
-  transition: all 0.4s ease-in-out;
-}
-
-#gallery .gallery-thumb:hover {
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-  top: -5px;
-}
-
-#gallery .gallery-thumb img {
-  width: 100%;
-}
-
-#gallery .col-md-12 p {
-  padding-top: 22px;
-  text-align: center;
-}
-
-
-
-/*---------------------------------------
-   reserve section              
------------------------------------------*/
-
-#reserve .col-md-4 {
-  padding-left: 0px;
-}
-#reserve  {
-  margin-top: 10rem;
-}
-#reserve  .col-md-12 {
-  padding-left: 0;
-}
-
-#reserve  form {
-  padding-top: 32px;
-}
-
-#reserve  .form-control {
-  border: 2px solid #d1cfcf;
-  box-shadow: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transition: all 0.4s ease-in-out;
-}
-
-#reserve  .form-control:hover {
-  border-color: #555;
-}
-
-#reserve  input {
-  height: 50px;
-}
-
-#reserve  input[type="submit"] {
-  background: #bfba55;
-  border-radius: 100px;
-  border: none;
-  color: #444;
-  font-family: 'Merriweather', serif;
-  font-weight: bold;
-  transition: all 0.4s ease-in-out;
-}
-
-#reserve  input[type="submit"]:hover {
-  background: #ffffff;
-  border-color: #ffffff;
-  color: #444;
-  border: 2px solid #bfba55;
-}
-
-
-/*---------------------------------------
-   É Um Restaurante laging Page section              
------------------------------------------*/
+/*-------------------------------------------Home Page Section----------------------------------------------*/
 #page-home{
   margin: 0;
   background-color: white;
@@ -1099,12 +953,12 @@ Section E Uma Mesa Menu
 }
 
 #page-home  .btn{
-  background: #bfba55;
+  background: rgb(35, 35, 35);
   width: 200px;
   height: 60px;
   text-align: center;
   border: 2px solid #ffffff;
-  color: #444;
+  color: white;
   font-family: 'Merriweather', serif;
   font-size: 1.3rem;
   font-weight: bold;
@@ -1118,12 +972,11 @@ Section E Uma Mesa Menu
 #page-home .btn:hover {
   background: #ffffff;
   border-color: #ffffff;
+  color: rgb(35, 35, 35);
   border: 2px solid #bfba55;
 }
 
-/*---------------------------------------
- Banner-class section              
------------------------------------------*/
+/* --------------------------------- Banner-class section ---------------------------------*/
 #banner-class{
   margin: 0;
   position: relative;
@@ -1178,9 +1031,7 @@ Section E Uma Mesa Menu
   0 10px 10px rgba(0,0,0,.2),
   0 20px 20px rgba(0,0,0,.15);
 }
-/*---------------------------------------
-  food Specialty section              
------------------------------------------*/
+/* ------------------------------- Specialties food  section ------------------------------------*/
 #food-specialty{
     padding-bottom: 10rem;
 }
@@ -1206,9 +1057,9 @@ Section E Uma Mesa Menu
   line-height: 3rem;
   letter-spacing:0;
 }
-/*---------------------------------------
-   Banner Menu-Page section              
------------------------------------------*/
+
+/* -------------------------Banner Menu-Page section---------------------------*/
+
 #banner-menu-page{
   width: 100%;
   padding-bottom: 15rem;
@@ -1235,7 +1086,252 @@ Section E Uma Mesa Menu
     line-height: 26px;
     letter-spacing: 0.2px;
 }
-#banner-menu-page  .btn{
+
+#banner-menu-page .btn{
+  background: rgb(35, 35, 35);
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+#banner-menu-page .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: rgb(35, 35, 35);
+  border: 2px solid #bfba55;
+}
+/*-------------------------------------- Menu Page Section  É Um Restaurante ---------------------------------*/
+
+#menu  .col-md-6{
+  padding-top: 22px;
+  padding-bottom: 32px;
+}
+#menu  .col-md-6 p:hover{
+  color: #bfba55;
+}
+#menu  .col-md-6 h3{
+  font-size: 1.5rem;
+}
+#menu  .col-md-6 h3:hover{
+  color: #bfba55;
+}
+#menu  .col-md-6 hr{
+  margin: 0;
+}
+#menu .col-md-6 img:hover {
+  border: 1px solid #bfba55;
+}
+
+#menu .col-md-4 {
+  padding-bottom: 32px;
+}
+
+#menu .col-md-4 img {
+  padding-top: 12px;
+}
+#menu-two .menu-two-section{
+  width: 100%;
+  height: 48rem;
+  background:url(../images/bacalhau--.png) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  margin-top: 2rem;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding:4.375rem 0 ;
+    
+}
+#menu-two .menu-two-section .col-md-6 {
+  padding-top: 22px;
+  text-align: left;
+  padding-bottom: 32px;
+}
+
+#menu-two .menu-two-section  .col-md-6 p:hover{
+  color: #bfba55;
+}
+#menu-two .menu-two-section  .col-md-6 h3{
+  font-size: 1.5rem;
+}
+#menu-two .menu-two-section  .col-md-6 h3:hover{
+  color: #bfba55;
+}
+#menu-two .menu-two-section  .col-md-6 hr{
+  margin: 0;
+}
+
+#menu-three{
+  width: 100%;
+  background:url(../images/Crescer-Restaurante-6.jpg) no-repeat center;
+  background-size: cover;
+  opacity: 0.9;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding:4.375rem 0 ;
+    
+}
+
+#menu-three .explore-menu-three .card{
+  border: none; 
+  background-color: #ffffffa3;
+  color: rgb(35, 35, 35);
+  align-items: center;
+}
+#menu-three .explore-menu-three .card:hover{
+  transition: var(--transition-1);
+  box-shadow: 0 .2rem .5rem rgba(0,0,0,.7);
+
+
+}
+#menu-three .explore-menu-three .card p{
+  color: rgb(35, 35, 35);
+  font-weight: 600;
+}
+#menu-three .explore-menu-three .card p:hover{
+  color: white;
+}
+#menu-three .explore-menu-three .card h2{
+ padding: 1.5rem;
+}
+#menu-three .explore-menu-three .card hr{
+  margin:1px;
+}
+.text_content{
+  width: 70%;
+  margin: auto;
+  color: white;
+}
+/*-------------------------------------------------------------------------------------------------------------
+                                          É Um Almoço             
+--------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------- Home Page Section-------------------------------------------- */
+#page-home-two{
+  margin: 0;
+  background-color: whitesmoke;
+ 
+}
+#page-home-two .explore-page-home-two .row{
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#page-home-two .explore-page-home-two .col-lg-6{
+  background-image: linear-gradient(#f8f7fc);
+  margin-top: 4rem;
+  
+
+}
+#page-home-two .explore-page-home-two .col-lg-12 .col-lg-4{
+  box-shadow:
+  2em 4em 6em -2em rgba(0, 0, 0, 0.372),
+  1em 2em 3.5em -2.5em rgba(0,0,0,0.372);
+  border-radius: .5em;
+}
+#page-home-two .explore-page-home-two .col-lg-12 .col-lg-4 p{
+  margin: 1rem;
+}
+#page-home-two .explore-page-home-two .col-lg-12 {
+  background-image: linear-gradient(#f8f7fc );
+}
+
+#page-home-two .explore-page-home-two .col-lg-12 h2 {
+  font-size: 2rem;
+  color: rgb(35, 35, 35);
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing:0;
+}
+#page-home-two .explore-page-home-two .col-lg-12 h4 {
+  font-size: 1.5rem;
+  color: rgb(93, 91, 91);
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing:0;
+  margin: 1rem;
+}
+#page-home-two .explore-page-home-two .col-lg-12 h3{
+  color: #bfba55;
+  margin: 1rem;
+}
+
+#page-home-two .explore-page-home-two .col-lg-6 .card h3{
+    margin-top: 2rem;
+}
+
+
+#page-home-two .explore-page-home-two .col-lg-6 .card h4{
+  font-size: 1.8rem;
+  color: #444;
+  font-weight: 300;
+  line-height: 4rem;
+  letter-spacing:0;
+}
+
+/*---------------------------------------Main Food Section -----------------------------------*/
+#main-food{
+  margin: 0;
+  margin-top: 4rem;
+  background-color: white;
+ 
+}
+#main-food .explore-main-food .row{
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#main-food .explore-main-food .col-lg-6{
+  background-image: linear-gradient(#f8f7fc);
+}
+
+#main-food .explore-main-food .col-lg-12 {
+  background-image: linear-gradient(#f8f7fc );
+  text-align: center;
+}
+
+#main-food .explore-main-food .col-lg-12 h2 {
+  font-size: 2rem;
+  color: rgb(35, 35, 35);
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing:0;
+}
+#main-food .explore-main-food .col-lg-12 h4 {
+  font-size: 1.5rem;
+  color: rgb(93, 91, 91);
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing:0;
+}
+#main-food .explore-main-food .col-lg-12 h3{
+  color: #bfba55;
+}
+#main-food .explore-main-food .col-lg-6 .card{
+  margin: 3rem;
+}
+#main-food .explore-main-food .col-lg-6 .card h3{
+    margin-top: 2rem;
+}
+
+#main-food .explore-main-food .col-lg-6 .card h4{
+  font-size: 1.8rem;
+  color: #444;
+  font-weight: 300;
+  line-height: 2rem;
+  letter-spacing:0;
+}
+
+#main-food  .btn{
   background: #bfba55;
   width: 200px;
   height: 60px;
@@ -1248,16 +1344,98 @@ Section E Uma Mesa Menu
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 19px 22px;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   transition: all 0.4s ease-in-out;
 }
-#banner-menu-page  .btn:hover {
+#main-food  .btn:hover {
   background: #ffffff;
   border-color: #ffffff;
   border: 2px solid #bfba55;
 }
 
 
+/*     ---------------------------------------------- */
+#chef-e-um-almoco{
+  margin: 0;
+  
+ }
+ #chef-e-um-almoco .explore-chef-e-um-almoco{
+   width: 100%;
+   background: url(../images/Crescer-Restaurante-4.jpg) no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   padding-bottom: 2rem;
+   
+ }
+ 
+ #chef-e-um-almoco .explore-chef-e-um-almoco .row{
+   margin-top: 4rem;
+  
+ }
+ #chef-e-um-almoco .explore-chef-e-um-almoco .col-lg-5{
+  background-color: #ffffffce;
+  padding: 2.6rem;
+}
+#chef-e-um-almoco .explore-chef-e-um-almoco .col-lg-5 h2{
+  color: #bfba55;
+  font-weight: 700;
+}
+#chef-e-um-almoco .explore-chef-e-um-almoco .col-lg-5 p{
+  color: rgb(45, 44, 44);
+  font-weight: 400;
+}
+#chef-e-um-almoco .explore-chef-e-um-almoco .col-lg-5 h4{
+  font-size: 1.5rem;
+  color: rgb(45, 44, 44);
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing:0;
+}
+ #chef-e-um-almoco  .btn{
+   background: #bfba55;
+   border: 2px solid transparent;
+   color: #444;
+   font-family: 'Merriweather', serif;
+   font-size: 1.3rem;
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   padding: 13px 22px;
+   margin-top: 2rem;
+   transition: all 0.4s ease-in-out;
+ }
+ 
+ #chef-e-um-almoco .btn:hover {
+   background: #ffffff;
+   border-color: #ffffff;
+   border: 2px solid #bfba55;
+ }
+
+ /* --------------------------------Menu Section É Um Almoço------------------------------------*/
+ #page-home-menu-e-um-almoco{
+  margin: 0;
+  background-color: white;
+ 
+}
+#page-home-menu-e-um-almoco .explore-page-home-menu-e-um-almoco .row{
+  margin-top: 2rem;
+  text-align: justify;
+  padding-bottom: 2rem;
+}
+
+#page-home-menu-e-um-almoco .explore-page-home-menu-e-um-almoco .col-lg-12{
+  background-image: linear-gradient(#ffffff8a,#bfba5528);
+  box-shadow: 5px 5px 2px 1px #bfba553c;
+  margin-top: 4rem;
+  
+}
+#page-home-menu-e-um-almoco .explore-page-home-menu-e-um-almoco .col-lg-12 .card h3{
+  
+  font-size:1.7rem;
+
+  
+}
+ 
 
 
 /*---------------------------------------

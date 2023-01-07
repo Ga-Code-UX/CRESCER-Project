@@ -116,6 +116,8 @@ a:hover, a:active, a:focus {
 .main-menu-e-um-restaurante,
 .main-gallery-e-um-restaurante,
 .main-e-um-almoco,
+.main-e-uma-esplanada,
+.main-banner-menu-e-uma-esplanada,
 .main-single-post,
 .main-gallery,
 .main-contact {
@@ -355,7 +357,12 @@ a:hover, a:active, a:focus {
 .main-gallery {
   background: url('../images/gallery-bg.jpg') no-repeat;
 }
-
+.main-e-uma-esplanada{
+  background: url('../images/banner-e-uma-esplanada.jpg') no-repeat;
+}
+.main-banner-menu-e-uma-esplanada{
+  background: url('../images/banner-menu-e-uma-esplanada.jpg') no-repeat;
+}
 .main-contact {
   background: url('../images/contact-bg.jpg') no-repeat;
 }
@@ -1436,6 +1443,229 @@ border:2px solid white;
   
 }
  
+/*--------------------------------------------------------------------------------------------------------------
+                                              É Uma Esplanada
+--------------------------------------------------------------------------------------------------------------*/
+
+
+/* --------------------------------- Banner-class section ---------------------------------*/
+#banner-class-e-uma-esplanada{
+  width: 100%;
+  background: url(../images/banner1-e-um-restaurante.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  position: relative;
+}
+
+#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .container .row .col-lg-12 h1{
+    color: rgb(174, 154, 100);
+    margin-top: 5%;
+    margin-left: 36rem;
+    position: absolute;     
+}
+#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .container .row .col-lg-12 p{
+  color: rgb(174, 154, 100);
+  font-size: 1.6rem;
+  position: absolute; 
+  margin-top: 15%;
+}
+#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .col-lg-4{
+    margin-top: 28%;
+    background-color: transparent;
+    padding-bottom: 2rem;
+}
+#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .col-lg-4 h3{
+  color: rgb(174, 154, 100);
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2em;
+  font-size: 25px;
+}
+#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .col-lg-4 p{
+    color: rgb(174, 154, 100);
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 1.6rem;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .btn{
+  background: rgb(35, 35, 35);
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: rgb(35, 35, 35);
+  border: 2px solid #bfba55;
+}
+
+
+/* --------------------------------- Banner-background section ---------------------------------*/
+#banner-background{
+  width: 100%;
+  background-color:#ae9a64; 
+  background: url(../images/banner-background.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 65vh;
+  
+}
+
+#banner-background .explore-banner-background .container .row .col-lg-12 h1{
+    color:white;
+    margin-top: 5%;
+    margin-left: 70rem;
+    font-size: 3rem;
+    position: absolute;     
+}
+
+#banner-background .explore-banner-background .col-lg-7{
+    margin-top: 12%;
+    margin-left: 60rem;
+    text-align: justify;
+    background-color: transparent;
+    padding-bottom: 1rem;
+}
+#banner-background .explore-banner-background .col-lg-7 .card-btn {
+    text-align: center;
+}
+#banner-background .explore-banner-background .col-lg-7 ul li{
+    color: white;
+    margin-top: 0;
+    font-size: 1.6rem;
+    line-height: 4rem;
+    letter-spacing: 0.2px;
+    list-style-type: none;
+}
+
+#banner-background .btn{
+  background: rgba(116,103,67,1);
+  width: 200px;
+  border: dotted;
+  height: 60px;
+  text-align: center;
+  border: 2px solid;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+#banner-background .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: rgb(35, 35, 35);
+  border: 2px solid rgba(17, 17, 17, 0.411);
+}
+
+/* --------------------------------- Banner-drinks ---------------------------------*/
+#banner-drinks{
+  width: 100%;
+  padding-bottom: 15rem;
+  background-color:#ae9a64; 
+  background: url(../images/coffee-e-uma-esplanada.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+  position: relative;
+}
+#banner-drinks .explore-banner-drinks {
+  text-align: center;
+}
+#banner-drinks .explore-banner-drinks  .col-lg-12{
+  text-align: center;
+  background-color: transparent;
+}
+#banner-drinks .explore-banner-drinks .container .row .col-lg-12 h1{
+    color:white;
+    margin-top: 5%;
+    font-size: 4rem;   
+}
+#banner-drinks .explore-banner-drinks .container .row .col-lg-12 p{
+  color:white;
+  margin-top: 3%;
+}
+#banner-drinks .btn{
+  background: rgba(116,103,67,1);
+  width: 200px;
+  border: dotted;
+  height: 60px;
+  text-align: center;
+  border: 2px solid;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 4rem;
+  transition: all 0.4s ease-in-out;
+}
+#banner-drinks .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: rgb(35, 35, 35);
+  border: 2px solid rgba(17, 17, 17, 0.411);
+}
+
+
+/* --------------------------------Menu Section É Uma Esplanada------------------------------------*/
+#page-menu{
+  margin: 0;
+  background-color:#323232; 
+}
+#page-menu .explore-page-menu .row{
+  margin-top: 2rem;
+  text-align: justify;
+  padding-bottom: 2rem;
+}
+
+#page-menu .explore-page-menu .col-lg-12{
+  box-shadow: 5px 5px 2px 1px #bfba553c;
+  margin-top: 4rem;
+  
+}
+#page-menu .explore-page-menu .col-lg-12 .card hr{
+  border-color:#ae9a64 ;
+}
+#page-menu .explore-page-menu .col-lg-12 .card h2{
+  color:#ae9a64 ;
+}
+#page-menu .explore-page-menu .col-lg-12 .card p{
+ color:#777 ;
+}
+
+#page-menu .explore-page-menu .col-lg-12 .card h3{
+  color:#ae9a64 ;
+  font-size:1.7rem;
+ 
+}
+
 
 
 /*---------------------------------------
@@ -1444,8 +1674,7 @@ border:2px solid white;
 
 footer {
   margin: 0;
-  background-image: linear-gradient(#ffffff,#b2b3b6 );
-  position: relative;
+  background: #323232;
 }
 
 footer .container a{
@@ -1453,6 +1682,9 @@ footer .container a{
 
 }
 
+footer .col-md-12{
+  color: #777;
+}
 footer .col-md-4 .fa {
   color: #ffffff;
   padding-right: 8px;
@@ -1460,16 +1692,21 @@ footer .col-md-4 .fa {
 }
 
 footer .col-md-4 h3{
-  color: rgb(35, 35, 35);
+  color: white;
   font-size: 1.4rem;
 }
 footer .col-md-4 h4{
-  color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+footer .col-md-4 p {
+  color: #777;
   font-weight: 500;
   font-size: 1.3rem;
 }
 footer .col-md-4 p a{
-  color: black;
+  color: white;
   font-weight: 500;
   font-size: 1.3rem;
 }
@@ -1484,7 +1721,7 @@ footer .col-md-4 ul li{
   text-decoration:#bfba55 wavy underline ;
 }
 footer .col-md-4 ul li a{
-  color: #292929;
+  color: white;
   cursor: pointer;
   font-size: 1.3rem;
   transition: all 0.4s ease-in-out;
@@ -1495,12 +1732,11 @@ footer .col-md-4 ul li a:hover {
   transform: scale(1.1);
 }
 footer .col-md-6 a{
-  color: black;
+  color: white;
   line-height: 2rem;
   list-style-type: none;
   letter-spacing:.1rem;
   font-size: 1.3rem;
- 
 }
 
 footer  .col-md-12 .link {
@@ -1516,7 +1752,7 @@ footer  .col-md-12 .link li {
 }
 
 footer  .col-md-12 .link li a {
-  color: #292929;
+  color: white;
   cursor: pointer;
   font-size: 16px;
   text-decoration: none;
@@ -1534,7 +1770,7 @@ footer  .col-md-12 .link li a:hover {
 }
 
 footer hr {
-  border-color: #121212;
+  border-color: #777;
   margin-top: 30px;
   margin-bottom: 42px;
 }
@@ -1542,6 +1778,7 @@ footer hr {
 footer .footer-copyright {
   padding-top: 12px;
   text-align: center;
+  color: white;
 }
 
 
@@ -1590,7 +1827,7 @@ footer .footer-copyright {
 
 .social-icon li a {
     border: 2px solid #292929;
-    color: #292929;
+    color: #bfba55;
     border-radius: 100px;
     cursor: pointer;
     font-size: 19px;
@@ -1607,7 +1844,7 @@ footer .footer-copyright {
 
 .social-icon li a:hover {
     border-color: #bfba55;
-    color: #bfba55;
+    color: #292929;
     transform: scale(1.1);
     background-color: white;
 }

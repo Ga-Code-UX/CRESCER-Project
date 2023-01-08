@@ -1860,15 +1860,105 @@ footer .footer-copyright {
   .main-about,
   .main-single-post,  
   .main-gallery,
+  .main-about,
+  .main-eumamesa,
+  .main-gallery-eumamesa,
+  .main-menu-eumamesa,
+  .main-e-um-restaurante,
+  .main-menu-e-um-restaurante,
+  .main-gallery-e-um-restaurante,
+  .main-e-um-almoco,
+  .main-e-uma-esplanada,
+  .main-banner-menu-e-uma-esplanada,
   .main-contact {
     height: 35vh;
   }
+ 
+  #page-home .explore-page-home .row{
+    margin-top: 1rem;
+    padding-bottom: 0;
+  }
+  #page-home .explore-page-home .col-lg-12 {
+    margin-top: 2rem;
+  }
+  #page-home .explore-page-home .col-lg-12 .col-lg-2 {
+    text-align: center;
+  }
+  #page-home .explore-page-home .col-lg-12 .col-lg-2 img{
+    margin: 1rem;
+
+  }
+  #page-home .explore-page-home .col-lg-12 h4 {
+    text-align: center;
+  }
+  #page-home .explore-page-home .col-lg-12 {
+    text-align: center;
+    
+  }
+ 
+  #page-home .explore-page-home .col-lg-6 .card h4{
+    text-align: justify;
+  }
+
+
+  #banner-class{
+    margin: 0;
+    height: auto;
+  }
+  #banner-class .explore-banner-class .row{
+    margin-top: 0;
+ 
+  }
+  
+  #banner-class .explore-banner-class .col-lg-12 h2 {
+    margin-top: 0;
+  }
+
+  #food-specialty{
+    padding-bottom:0;
+  }
+  #food-specialty .explore-food-specialty .col-lg-12 h2 {
+    margin-top: 0;
+  }
+
+
+  #banner-menu-page{
+    width: 100%;
+    background: url(../images/banner1-e-um-restaurante.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+  #banner-menu-page .explore-banner-menu-page{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #banner-menu-page .explore-banner-menu-page .col-lg-6{
+      margin-top: 14rem;
+      margin-left:0;
+      background-color: #ffffffce;
+      padding-bottom: 4rem;
+  }
+  #banner-menu-page .explore-banner-menu-page .col-lg-6 h3{
+    padding-top: 2rem;
+  }
+ 
+  footer .row{
+    margin-top: 8rem;
+  }
+
+  footer .col-md-4{
+    margin-top: 1rem;
+  }
+
   footer .col-md-4 h3{
-    margin-top: 6rem;
+    margin-top: 2rem;
    
   }
   footer .container a{
-    margin-top: 0;
+    margin-top: 3rem;
     padding-bottom: 2rem;
   }
   .menu-section{
@@ -1879,25 +1969,7 @@ footer .footer-copyright {
   .menu2-section{
     background-size: contain;
   }
-  .eye{
-    position: absolute;
-    right: 60%;
-    margin-right: 4rem;
-    top: 80%;
-    background: #252525;
-    padding: 12px;
-    border-radius: 50%;
-    animation: eye 1s linear infinite;
-  }
-  .pieces{
-    padding: 10px;
-    margin-top: 13%;
-    border-radius: 50%;
-    background: #ffcc00;
-    position: absolute;
-    right: 40%;
-    animation: pieces 1s linear infinite;
-  }
+
  
 }
 
@@ -1923,18 +1995,6 @@ footer .footer-copyright {
   footer .col-md-4 {
     padding-top: 22px;
   }
-  .eye{
-    position: absolute;
-    right: 60%;
-    margin-right: 2rem;
-    top: 80%;
-    background: #252525;
-    padding: 12px;
-    border-radius: 50%;
-    animation: eye 1s linear infinite;
-  }
-
-
 }
 
 
@@ -1944,7 +2004,7 @@ footer .footer-copyright {
     font-size: 42px;
   }
 
-  #about, #gallery,
+  #about, #gallery, #page-home,#banner-class,#food-specialty,#banner-menu-page
   #contact,
   #blog, #blog-single-post {
     padding-top: 60px;

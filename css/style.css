@@ -1543,7 +1543,7 @@ border:2px solid white;
 }
 
 #banner-background .explore-banner-background .col-lg-7{
-    margin-top: 12%;
+    margin-top: 6%;
     margin-left: 60rem;
     text-align: justify;
     background-color: transparent;
@@ -1605,7 +1605,7 @@ border:2px solid white;
 }
 #banner-drinks .explore-banner-drinks .container .row .col-lg-12 h1{
     color:white;
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 4rem;   
 }
 #banner-drinks .explore-banner-drinks .container .row .col-lg-12 p{
@@ -1626,7 +1626,7 @@ border:2px solid white;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 19px 22px;
-  margin-top: 4rem;
+  margin-top: 2rem;
   transition: all 0.4s ease-in-out;
 }
 #banner-drinks .btn:hover {

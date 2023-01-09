@@ -1528,7 +1528,7 @@ border:2px solid white;
   background-size: cover;
   background-attachment: fixed;
   height: 65vh;
-  padding-bottom: 2rem;
+  padding-bottom: 6rem;
   
 }
 #banner-background .explore-banner-background {
@@ -1536,7 +1536,7 @@ border:2px solid white;
 }
 #banner-background .explore-banner-background .container .row .col-lg-12 h1{
     color:white;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 70rem;
     font-size: 3rem;
     position: absolute;     

@@ -1531,7 +1531,9 @@ border:2px solid white;
   padding-bottom: 2rem;
   
 }
-
+#banner-background .explore-banner-background {
+  padding-bottom: 3rem;
+}
 #banner-background .explore-banner-background .container .row .col-lg-12 h1{
     color:white;
     margin-top: 5%;
@@ -1545,7 +1547,7 @@ border:2px solid white;
     margin-left: 60rem;
     text-align: justify;
     background-color: transparent;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 #banner-background .explore-banner-background .col-lg-7 .card-btn {
     text-align: center;
@@ -1586,7 +1588,7 @@ border:2px solid white;
 /* --------------------------------- Banner-drinks ---------------------------------*/
 #banner-drinks{
   width: 100%;
-  padding-bottom: 15rem;
+  padding-bottom: 17rem;
   background-color:#ae9a64; 
   background: url(../images/coffee-e-uma-esplanada.jpg) no-repeat;
   background-size: cover;

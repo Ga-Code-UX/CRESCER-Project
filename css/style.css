@@ -1528,6 +1528,7 @@ border:2px solid white;
   background-size: cover;
   background-attachment: fixed;
   height: 65vh;
+  padding-bottom: 2rem;
   
 }
 

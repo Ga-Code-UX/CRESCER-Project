@@ -154,6 +154,16 @@ a:hover, a:active, a:focus {
   right: 0;
   bottom: 0;
 }
+.overlay-banner-class-new {
+  background: rgba(0, 0, 0, 0.479); 
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
@@ -377,6 +387,7 @@ a:hover, a:active, a:focus {
 
 #home h4 {
   color: #bfba55;
+  line-height: 3.5rem;
 }
 #home  .col-md-12 h1{
   margin-top: 10%;
@@ -1449,45 +1460,35 @@ border:2px solid white;
 
 
 /* --------------------------------- Banner-class section ---------------------------------*/
-#banner-class-e-uma-esplanada{
+#banner-class-restaurant-one{
   width: 100%;
-  background: url(../images/banner1-e-um-restaurante.jpg) no-repeat;
+  background: url(../images/Crescer-Restaurante-2.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: auto;
   position: relative;
 }
 
-#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada{
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .row{
   align-items: center;
+  padding: 3rem;
   justify-content: center;
   text-align: center;
 }
-#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .container .row .col-lg-12 h1{
-    color: rgb(174, 154, 100);
-    margin-top: 5%;
-    margin-left: 36rem;
-    position: absolute;     
-}
-#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .container .row .col-lg-12 p{
-  color: rgb(174, 154, 100);
-  font-size: 1.6rem;
-  position: absolute; 
-  margin-top: 15%;
-}
-#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .col-lg-4{
-    margin-top: 28%;
+
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-6{
+    margin-top: 4%;
     background-color: transparent;
     padding-bottom: 2rem;
 }
-#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .col-lg-4 h3{
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-6 h3{
   color: rgb(174, 154, 100);
   font-weight: 600;
   text-align: center;
   line-height: 1.2em;
   font-size: 25px;
 }
-#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .col-lg-4 p{
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-6 p{
     color: rgb(174, 154, 100);
     font-weight: 600;
     margin-top: 0;
@@ -1496,8 +1497,15 @@ border:2px solid white;
     letter-spacing: 0.2px;
 }
 
-#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .btn{
-  background: rgb(35, 35, 35);
+
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-5{
+  margin-top: 8%;
+  background-color: transparent;
+  padding-bottom: 2rem;
+}
+
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .btn{
+  background:  rgb(174, 154, 100);
   width: 200px;
   height: 60px;
   text-align: center;
@@ -1512,7 +1520,7 @@ border:2px solid white;
   margin-top: 2rem;
   transition: all 0.4s ease-in-out;
 }
-#banner-class-e-uma-esplanada .explore-banner-class-e-uma-esplanada .btn:hover {
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .btn:hover {
   background: #ffffff;
   border-color: #ffffff;
   color: rgb(35, 35, 35);
@@ -1521,47 +1529,53 @@ border:2px solid white;
 
 
 /* --------------------------------- Banner-background section ---------------------------------*/
-#banner-background{
+#banner-restaurant-two{
   width: 100%;
   background-color:#ae9a64; 
-  background: url(../images/banner-background.png) no-repeat;
+  background: url(../images/banner-e-um-restaurante.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 65vh;
-  padding-bottom: 6rem;
+  height: 70vh;
+  position: relative;
+  padding-bottom: 10rem;
   
 }
-#banner-background .explore-banner-background {
-  padding-bottom: 3rem;
-}
-#banner-background .explore-banner-background .container .row .col-lg-12 h1{
+
+#banner-restaurant-two .explore-banner-restaurant-two .container .row .col-lg-12 h1{
     color:white;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 70rem;
     font-size: 3rem;
     position: absolute;     
 }
 
-#banner-background .explore-banner-background .col-lg-7{
+#banner-restaurant-two .explore-banner-restaurant-two .col-lg-7{
     margin-top: 6%;
     margin-left: 60rem;
     text-align: justify;
     background-color: transparent;
     padding-bottom: 2rem;
 }
-#banner-background .explore-banner-background .col-lg-7 .card-btn {
+#banner-restaurant-two .explore-banner-restaurant-two .col-lg-7 .card-btn {
     text-align: center;
 }
-#banner-background .explore-banner-background .col-lg-7 ul li{
+#banner-restaurant-two .explore-banner-restaurant-two .col-lg-7 h3{
+  color: white;
+  margin-top: 0;
+  line-height: 3.5rem;
+  letter-spacing: 0.2px;
+  list-style-type: none;
+}
+#banner-restaurant-two .explore-banner-restaurant-two .col-lg-7 p{
     color: white;
     margin-top: 0;
     font-size: 1.6rem;
-    line-height: 4rem;
+    line-height: 3.5rem;
     letter-spacing: 0.2px;
     list-style-type: none;
 }
 
-#banner-background .btn{
+#banner-restaurant-two .btn{
   background: rgba(116,103,67,1);
   width: 200px;
   border: dotted;
@@ -1578,7 +1592,78 @@ border:2px solid white;
   margin-top: 2rem;
   transition: all 0.4s ease-in-out;
 }
-#banner-background .btn:hover {
+#banner-restaurant-two .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: rgb(35, 35, 35);
+  border: 2px solid rgba(17, 17, 17, 0.411);
+}
+
+/* --------------------------------- Banner-Restaurant-three ---------------------------------*/
+#banner-restaurant-three{
+  width: 100%;
+  background-color:#ae9a64; 
+  background: url(../images/coffee-e-uma-esplanada.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+  position: relative;
+  padding-bottom: 10rem;
+  
+}
+
+#banner-restaurant-three .explore-banner-restaurant-three .container .row .col-lg-12 h1{
+    color:white;
+    margin-top: 4%;
+    margin-left:3rem;
+    font-size: 3rem;
+    position: absolute;     
+}
+
+#banner-restaurant-three .explore-banner-restaurant-three  .col-lg-7{
+    margin-top: 6%;
+    margin-left: 3rem;
+    text-align: justify;
+    background-color: transparent;
+    padding-bottom: 2rem;
+}
+#banner-restaurant-three .explore-banner-restaurant-three  .col-lg-7 .card-btn {
+    text-align: center;
+}
+#banner-restaurant-three .explore-banner-restaurant-three  .col-lg-7 h3{
+  color: white;
+  margin-top: 0;
+  line-height: 3.5rem;
+  letter-spacing: 0.2px;
+  list-style-type: none;
+}
+#banner-restaurant-three .explore-banner-restaurant-three  .col-lg-7 p{
+    color: white;
+    margin-top: 0;
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.2px;
+    list-style-type: none;
+}
+
+#banner-restaurant-three .btn{
+  background: rgba(116,103,67,1);
+  width: 200px;
+  border: dotted;
+  height: 60px;
+  text-align: center;
+  border: 2px solid;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+#banner-restaurant-three .btn:hover {
   background: #ffffff;
   border-color: #ffffff;
   color: rgb(35, 35, 35);
@@ -1586,33 +1671,33 @@ border:2px solid white;
 }
 
 /* --------------------------------- Banner-drinks ---------------------------------*/
-#banner-drinks{
+#banner-restaurant-four{
   width: 100%;
   padding-bottom: 17rem;
   background-color:#ae9a64; 
-  background: url(../images/coffee-e-uma-esplanada.jpg) no-repeat;
+  background: url(../images/banner-e-um-almoco.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 70vh;
   position: relative;
 }
-#banner-drinks .explore-banner-drinks {
+#banner-restaurant-four .explore-banner-restaurant-four {
   text-align: center;
 }
-#banner-drinks .explore-banner-drinks  .col-lg-12{
+#banner-restaurant-four .explore-banner-restaurant-four  .col-lg-12{
   text-align: center;
   background-color: transparent;
 }
-#banner-drinks .explore-banner-drinks .container .row .col-lg-12 h1{
+#banner-restaurant-four .explore-banner-restaurant-four .container .row .col-lg-12 h1{
     color:white;
     margin-top: 3%;
     font-size: 4rem;   
 }
-#banner-drinks .explore-banner-drinks .container .row .col-lg-12 p{
+#banner-restaurant-four .explore-banner-restaurant-four .container .row .col-lg-12 p{
   color:white;
   margin-top: 3%;
 }
-#banner-drinks .btn{
+#banner-restaurant-four .btn{
   background: rgba(116,103,67,1);
   width: 200px;
   border: dotted;
@@ -1629,7 +1714,7 @@ border:2px solid white;
   margin-top: 2rem;
   transition: all 0.4s ease-in-out;
 }
-#banner-drinks .btn:hover {
+#banner-restaurant-four .btn:hover {
   background: #ffffff;
   border-color: #ffffff;
   color: rgb(35, 35, 35);

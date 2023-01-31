@@ -117,6 +117,7 @@ a:hover, a:active, a:focus {
 .main-gallery-e-um-restaurante,
 .main-e-um-almoco,
 .main-e-uma-esplanada,
+.main-gallery-e-uma-esplanada,
 .main-banner-menu-e-uma-esplanada,
 .main-single-post,
 .main-gallery,
@@ -126,6 +127,16 @@ a:hover, a:active, a:focus {
 
 .overlay {
   background: rgba(0,0,0,0.7 ); 
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.overlay-e-uma-esplanada {
+  background: rgba(0,0,0,0.47 ); 
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -171,10 +182,18 @@ a:hover, a:active, a:focus {
 }
 
 .img-logo{
-  width: 120px;
-  margin-top: -2.5rem;
-  height: 76px;
+  width: 180px;
+  height: 100px;
+  margin-top: -4.7rem;
+
 }
+.img-logo-eumamesa{
+  width: 120px;
+  height: 76px;
+  margin-top: -2.5rem;
+
+}
+
 /*---------------------------------------
     Preloader section              
 -----------------------------------------*/
@@ -271,9 +290,16 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #bfba55 !important;
+    color: #0339A6 !important;
 }
-
+/* to navbar of the é uma esplanada together with color brand */
+.navbar-default .navbar-nav > li a.a--brand:hover {
+  color: #F2A25C !important;
+}
+/* to navbar of the é uma restaurante together with color brand */
+.navbar-default .navbar-nav > li a.a--brand-is-a-restaurant:hover {
+  color: rgb(35, 35, 35) !important;
+}
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #606066;
@@ -288,10 +314,26 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #bfba55;
+    color: #0339A6;
     background-color: transparent;
 }
+/* to navbar of the é uma esplanada together with color brand fixed */
+.navbar-default .navbar-nav > .active-brand-e-uma-esplanada > .a--brand,
+.navbar-default .navbar-nav > .active-brand-e-uma-esplanada > a.a--brand:hover,
+.navbar-default .navbar-nav > .active-brand-e-uma-esplanada > a.a--brand:focus {
+  color: #F2A25C;
+  font-weight: 560;
+  background-color: transparent;
+}
 
+/* to navbar of the "is a restaurant" together with color brand fixed */
+.navbar-default .navbar-nav > .active-brand-is-a-restaurante > .a--brand-is-a-restaurant,
+.navbar-default .navbar-nav > .active-brand-is-a-restaurante > a.a--brand-is-a-restaurant:hover,
+.navbar-default .navbar-nav > .active-brand-is-a-restaurante > a.a--brand-is-a-restaurant:focus {
+  color: rgb(35, 35, 35);
+  background-color: transparent;
+  font-weight: 560;
+}
 .navbar-default .navbar-toggle {
      border: none;
      padding-top: 10px;
@@ -350,7 +392,7 @@ a:hover, a:active, a:focus {
 }
 
 .main-menu-e-um-restaurante {
-  background: url('../images/banner-menu-e-um-restaurante.jpg') no-repeat;
+  background: url('../images/banner-1-e-um-restaurante.png') no-repeat;
 }
 .main-gallery-e-um-restaurante {
   background: url('../images/banner-galeriaa-e-um-restaurante.jpg') no-repeat;
@@ -368,10 +410,13 @@ a:hover, a:active, a:focus {
   background: url('../images/gallery-bg.jpg') no-repeat;
 }
 .main-e-uma-esplanada{
-  background: url('../images/banner-e-uma-esplanada.jpg') no-repeat;
+  background: url('../images/banner-e-uma-esplanada.jpg') no-repeat center;
+}
+.main-gallery-e-uma-esplanada{
+  background: url('../images/banner-bolo.jpg') no-repeat center;
 }
 .main-banner-menu-e-uma-esplanada{
-  background: url('../images/banner-menu-e-uma-esplanada.jpg') no-repeat;
+  background: url('../images/banner-sacada.jpg') no-repeat;
 }
 .main-contact {
   background: url('../images/contact-bg.jpg') no-repeat;
@@ -386,7 +431,7 @@ a:hover, a:active, a:focus {
 }
 
 #home h4 {
-  color: #bfba55;
+  color: #2ea2cc;
   line-height: 3.5rem;
 }
 #home  .col-md-12 h1{
@@ -621,237 +666,98 @@ a:hover, a:active, a:focus {
                                                           É Uma Mesa   
 -------------------------------------------------------------------------------------------------------------------*/
 
-/* ---------------------------------------------------- Section Story --------------------------------------------*/
-
-#story{
-  margin: 0; 
-  padding-bottom: 1rem;
-}
-#story .explore-story .row{
-  margin-top: 2rem;
- 
-}
-#story .explore-story .card{
-  border: none; 
-  background-image:white;
-  color: rgb(35, 35, 35);
-  align-items: center;
-}
-#story .explore-story .col-lg-4{
-    margin-top: 3rem;
-}
-#story .explore-story .card img:hover{
-  box-shadow: 0 0 0 2px #bfba55;
-  transition: all .4s ease-out 0s;
-}
-#story .explore-story .card p{
-  color: rgb(35, 35, 35);
- 
-}
-.p-story{
-  margin-top: 9rem;
-}
-#story .explore-story .card h3{
-  margin-top: 10rem;
-}
-#story .explore-story .card h4 {
-  font-size: 1.4rem;
-  margin: 0;
-  line-height: 2.9rem;
-  color: rgb(35, 35, 35);
-  font-weight: 600;
-  letter-spacing:0;
-
-}
-#story .explore-story .card h3 span{
-  font-size: 1.9rem;
-  color: #bfba55;
-}
-#story .btn{
-  background: #bfba55;
-  border: 2px solid #ffffff;
-  color: #444;
-  font-family: 'Merriweather', serif;
-  font-size: 1.3rem;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding: 13px 22px;
-  margin-top: 2rem;
-  transition: all 0.4s ease-in-out;
-}
- #story .btn:hover {
-  background: #ffffff;
-  border-color: #ffffff;
-  border: 2px solid #bfba55;
-}
-
-/*----------------------------------------- Step by Step Section -----------------------------------------------*/
-#step-by-step{
-  margin: 0;
-  background-image: linear-gradient(#f8f7fc,#bfba5536 );
-  padding-bottom: 6rem;
-}
-#step-by-step .explore-step-by-step .row{
-  margin-top: 2rem;
- 
-}
-#step-by-step .explore-step-by-step .card{
-  border: none; 
-  background-image:white;
-  color: rgb(35, 35, 35);
-  align-items: center;
-}
-#step-by-step .explore-step-by-step .col-lg-3{
-    margin-top: 3rem;
-}
-
-#step-by-step .explore-step-by-step .card h4 {
-  font-size: 1.4rem;
-  margin: 0;
-  color: #bfba55;
-  font-weight: 600;
-  letter-spacing:0;
-}
-
-/* ------------------------------------------- Legacy Section  ----------------------------------------------*/
-
-#legacy{
-  margin: 0;
-  padding-bottom: 3rem;
-}
-#legacy .explore-legacy .row{
-  margin-top: 4rem;
-
- 
-}
-#legacy .explore-legacy .card{
-  border: none; 
-  background-image:white;
-  color: rgb(35, 35, 35);
-  align-items: center;
-}
-
-/* --------------------------------------------------Chef Section-----------------------------------------------*/
-#chef{
- margin: 0; 
-}
-#chef .explore-chef{
+#banner-menu-page-one{
   width: 100%;
-  background: url(../images/Crescer-Restaurante-4.jpg) no-repeat;
+  padding-bottom: 15rem;
+  background: url(../images/massa.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding-bottom: 2rem;
+}
+#banner-menu-page-one .explore-banner-menu-page-one{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-#chef .explore-chef .row{
-  margin-top: 4rem;
+#banner-menu-page-one .explore-banner-menu-page-one .col-lg-6{
+    margin-top: 14rem;
+    margin-left: 28rem;
+    background-color: #ffffffce;
+    padding-bottom: 2rem;
 }
-#chef .explore-chef .col-lg-4 img{
-  border:2px solid #bfba55 ;
-}
-#chef .explore-chef .col-lg-4 img:hover{
-border:2px solid white;
-}
-#chef .explore-chef .col-lg-5 {
-    background: white;
-    margin-top: 2rem;
-    border:2px solid white;
- }
- #chef .explore-chef .col-lg-5:hover{
-    border:2px solid #bfba55 ;
- }
- 
-#chef .explore-chef .col-lg-6 img {
-  border:2px solid white;
-}
-#chef .explore-chef .col-lg-6 img:hover{
-  border:2px solid #bfba55 ;
-}
-#chef .explore-chef .col-lg-8 .col-lg-5{
-  padding-bottom: 2rem;
-}
-#chef .explore-chef .col-lg-8 h2 span {
-  font-size: 3rem;
-  margin: 0;
-  margin-top: 6rem;
-  font-weight: 700;
-  color: #bfba55;
-  letter-spacing:0;
-  line-height: 2rem;
-}
-#chef .explore-chef .col-lg-8 h4 {
-  font-size: 1.4rem;
-  margin: 0;
-  margin-top: 1rem;
-  font-weight: 700;
-  color: rgb(103, 101, 101);
-  letter-spacing:0;
-  line-height: 2rem;
+#banner-menu-page-one .explore-banner-menu-page-one .col-lg-6 p{
+    color: rgb(93, 91, 91);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
 }
 
-#chef .explore-chef .col-lg-8 p{
-  color: rgb(35, 35, 35);
-  margin-top: 3rem;
-  line-height: 2rem;
-}
-#chef .btn{
-  background: #bfba55;
-  border: 2px solid #ffffff;
-  color: #444;
+#banner-menu-page-one .btn{
+  background: #F2B035;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: 2px solid #F2B035;
+  color: white;
   font-family: 'Merriweather', serif;
   font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
-  padding: 13px 22px;
+  padding: 19px 22px;
   margin-top: 2rem;
   transition: all 0.4s ease-in-out;
 }
-#chef .btn:hover {
+#banner-menu-page-one .btn:hover {
   background: #ffffff;
   border-color: #ffffff;
-  border: 2px solid #bfba55;
+  color: rgb(35, 35, 35);
+  border: 2px solid #F2B035;
 }
 
-/*--------------------------------------- Menu Section E Uma Mesa-----------------------------------------------*/
+/*------------------------------------------*/
+#menu-two-one{
+  position: relative;
+}
+#menu-two-one .menu-two-one-section{
+  width: 100%;
+  background:url(../images/pato-assado.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: 2rem;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding:4.375rem 0 ;
+}
 
-#eumamesa-menu{
-  background-color: white;
+#menu-two-one .menu-two-one-section .col-md-6 {
+  padding-top: 22px;
+  text-align: left;
+  padding-bottom: 32px;
 }
-#eumamesa-menu .explore-eumamesa-menu{
-  padding-bottom: 3rem;
- }
-#eumamesa-menu .explore-eumamesa-menu .col-lg-4  {
-  margin-top: 2rem;
- 
+#menu-two-one .menu-two-one-section  .col-md-6 p{
+  color: white;
+
 }
-#eumamesa-menu .explore-eumamesa-menu .col-lg-12  {
-  margin-top: 2rem;
-  box-shadow: 5px 5px 2px 1px #bfba553c;
- 
+#menu-two-one .menu-two-one-section  .col-md-6 p:hover{
+  color: #F2B035;
 }
-#eumamesa-menu .explore-eumamesa-menu .col-lg-12 h1,
-#eumamesa-menu .explore-eumamesa-menu .col-lg-12 h2, 
-#eumamesa-menu .explore-eumamesa-menu .col-lg-12 h3 {
-  text-align: center;
-}
-#eumamesa-menu .explore-eumamesa-menu .col-lg-12 h3{
-  color: rgb(35, 35, 35);
-}
-#eumamesa-menu .explore-eumamesa-menu .col-lg-12 p span{
-  color: rgb(35, 35, 35);
-  font-weight: 400;
-}
-#eumamesa-menu .explore-eumamesa-menu .col-lg-12 h4{
-  text-align: center;
+#menu-two-one .menu-two-one-section  .col-md-6 h2{
   font-size: 1.8rem;
+  color: white;
   font-weight: 700;
-  margin-top: 0;
 }
-#eumamesa-menu .btn{
-  background: #bfba55;
-  border: 2px solid #ffffff;
+#menu-two-one .menu-two-one-section  .col-md-6 h3:hover{
+  color: #F2B035;
+}
+#menu-two-one .menu-two-one-section  .col-md-6 hr{
+  margin: 0;
+}
+
+#menu-two-one .btn{
+  background: #F2B035;
+  border: 2px solid #F2B035;
   color: #444;
   font-family: 'Merriweather', serif;
   font-size: 1.3rem;
@@ -863,13 +769,58 @@ border:2px solid white;
   transition: all 0.4s ease-in-out;
 }
 
-#eumamesa-menu .btn:hover {
+#menu-two-one .btn:hover {
   background: #ffffff;
   border-color: #ffffff;
-  border: 2px solid #bfba55;
+  border: 2px solid #F2B035;
 }
 
 
+#reserve-e-uma-mesa .col-md-4 {
+  padding-left: 0px;
+}
+#reserve-e-uma-mesa  {
+  margin-top: 10rem;
+}
+#reserve-e-uma-mesa .col-md-12 {
+  padding-left: 0;
+}
+
+#reserve-e-uma-mesa  form {
+  padding-top: 32px;
+}
+#reserve-e-uma-mesa .form-control {
+  border: 2px solid #d1cfcf;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+#reserve-e-uma-mesa  .form-control:hover {
+  border-color: #F2B035;
+}
+
+#reserve-e-uma-mesa  input {
+  height: 50px;
+}
+
+#reserve-e-uma-mesa  input[type="submit"] {
+  background: #F2B035;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+}
+
+#reserve-e-uma-mesa  input[type="submit"]:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #444;
+  border: 2px solid #F2B035;
+}
 
 
 
@@ -892,20 +843,7 @@ border:2px solid white;
 
 }
 
-#page-home .explore-page-home .col-lg-12 {
-  background-image: linear-gradient(#f8f7fc );
-}
-#page-home .explore-page-home .col-lg-12 .col-lg-2 {
-  padding-bottom: 2rem;
-  border: 2px solid #bfba5558; 
-}
-#page-home .explore-page-home .col-lg-12 .col-lg-2 img{
-  margin: .2rem;
-}
-#page-home .explore-page-home .col-lg-12 .col-lg-2:hover{
-  border: 2px solid #bfba55; 
-  transition: all 0.4s ease-in-out;
-}
+
 #page-home .explore-page-home .col-lg-12 h2 {
   font-size: 2rem;
   color: rgb(35, 35, 35);
@@ -927,8 +865,8 @@ border:2px solid white;
     margin-top: 2rem;
     margin: 3rem;
 }
-#page-home .explore-page-home .col-lg-6 .card h4{
-  font-size: 1.8rem;
+#page-home .explore-page-home .col-lg-6 .card p{
+  font-size: 1.6rem;
   color: #444;
   font-weight: 300;
   line-height: 2.6rem;
@@ -997,10 +935,9 @@ border:2px solid white;
 /* --------------------------------- Banner-class section ---------------------------------*/
 #banner-class{
   margin: 0;
-  position: relative;
-  background: url(../images/Formacao1-e-um-restaurante.png) no-repeat;
+  background-image: linear-gradient(#f8f7fc );
   background-size: cover;
-  height: 65vh;
+  height: auto;
   align-items: center;
 }
 #banner-class .explore-banner-class .row{
@@ -1010,13 +947,15 @@ border:2px solid white;
 
 #banner-class .explore-banner-class .col-lg-12{
   text-align: center;
+  margin: 2rem;
   align-items: center;
 }
 
 #banner-class .explore-banner-class .col-lg-12 h2 {
   font-size: 2rem;
-  margin-top: 8rem;
-  color: white;
+  margin-top: 1rem;
+  margin: 2rem;
+  color: black;
   font-weight: bold;
   line-height: 3rem;
   padding-bottom: 14px;
@@ -1024,34 +963,45 @@ border:2px solid white;
   letter-spacing:0;
 
 }
-#banner-class .explore-banner-class .col-lg-12 p {
+
+#banner-class .explore-banner-class .col-lg-12 .col-lg-2{
+  margin: 1rem;
+  border: 2px solid #bfba5558; 
+}
+#banner-class .explore-banner-class .col-lg-12 .col-lg-2:hover{
+  border: 2px solid #bfba55; 
+  transition: all 0.4s ease-in-out;
+}
+#banner-class .explore-banner-class .col-lg-12 .col-lg-2 img{
+  margin: 1rem;
+}
+
+#banner-class .btn{
+  background: rgb(35, 35, 35);
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: 2px solid #ffffff;
   color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 0;
+  transition: all 0.4s ease-in-out;
 }
-#banner-class .explore-banner-class .col-lg-12 h4 {
-  font-size: 1.5rem;
-  color: #bfba55;
-  line-height: 2.6rem;
-  letter-spacing:0;
-  
-}
-#banner-class .explore-banner-class .col-lg-12 h3{
-  color: #bfba55;
-  text-shadow: 0 1px 0 #ccc,
-  0 2px 0 #c9c9c9,
-  0 3px 0 #bbb,
-  0 4px 0 #b9b9b9,
-  0 5px 0 #aaa,
-  0 6px 1px rgba(0,0,0,.1),
-  0 0 5px rgba(0,0,0,.1),
-  0 1px 3px rgba(0,0,0,.3),
-  0 3px 5px rgba(0,0,0,.2),
-  0 5px 10px rgba(0,0,0,.25),
-  0 10px 10px rgba(0,0,0,.2),
-  0 20px 20px rgba(0,0,0,.15);
+#banner-class .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: rgb(35, 35, 35);
+  border: 2px solid #bfba55;
 }
 /* ------------------------------- Specialties food  section ------------------------------------*/
 #food-specialty{
     padding-bottom: 10rem;
+    
 }
 #food-specialty .explore-food-specialty .col-lg-12{
   text-align: center;
@@ -1063,10 +1013,11 @@ border:2px solid white;
 #food-specialty .explore-food-specialty .col-lg-12 .col-lg-4 h4:hover{
   font-size: 1.4rem;
   color: #bfba55;
+  transition: all 0.8s ease-in-out;
 }
 #food-specialty .explore-food-specialty .col-lg-12 .col-lg-4 img:hover{
     border: 2px solid #bfba55;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 #food-specialty .explore-food-specialty .col-lg-12 h2 {
   font-size: 2rem;
@@ -1076,12 +1027,92 @@ border:2px solid white;
   letter-spacing:0;
 }
 
+/* --------------------------------------------------Chef Section-----------------------------------------------*/
+#chef{
+  margin: 0; 
+
+ }
+ #chef .explore-chef{
+   width: 100%;
+   padding-bottom: 2rem;
+ }
+ 
+ #chef .explore-chef .row{
+   margin-top: 4rem;
+ }
+ #chef .explore-chef .col-lg-4 img{
+   border:2px solid #bfba55 ;
+ }
+ #chef .explore-chef .col-lg-4 img:hover{
+ border:2px solid white;
+ }
+ #chef .explore-chef .col-lg-5 {
+     background: white;
+     margin-top: 2rem;
+     border:2px solid white;
+  }
+  #chef .explore-chef .col-lg-5:hover{
+     border:2px solid #bfba55 ;
+  }
+  
+ #chef .explore-chef .col-lg-6 img {
+   border:2px solid white;
+ }
+ #chef .explore-chef .col-lg-6 img:hover{
+   border:2px solid #bfba55 ;
+ }
+ #chef .explore-chef .col-lg-8 .col-lg-5{
+   padding-bottom: 2rem;
+ }
+ #chef .explore-chef .col-lg-8 h2 span {
+   font-size: 3rem;
+   margin: 0;
+   margin-top: 6rem;
+   font-weight: 700;
+   color: #bfba55;
+   letter-spacing:0;
+   line-height: 2rem;
+ }
+ #chef .explore-chef .col-lg-8 h4 {
+   font-size: 1.4rem;
+   margin: 0;
+   margin-top: 1rem;
+   font-weight: 700;
+   color: rgb(103, 101, 101);
+   letter-spacing:0;
+   line-height: 2rem;
+ }
+ 
+ #chef .explore-chef .col-lg-8 p{
+   color: rgb(35, 35, 35);
+   margin-top: 3rem;
+   line-height: 2rem;
+ }
+ #chef .btn{
+   background: #bfba55;
+   border: 2px solid #ffffff;
+   color: #444;
+   font-family: 'Merriweather', serif;
+   font-size: 1.3rem;
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   padding: 13px 22px;
+   margin-top: 2rem;
+   transition: all 0.4s ease-in-out;
+ }
+ #chef .btn:hover {
+   background: #ffffff;
+   border-color: #ffffff;
+   border: 2px solid #bfba55;
+ }
+ 
 /* -------------------------Banner Menu-Page section---------------------------*/
 
 #banner-menu-page{
   width: 100%;
   padding-bottom: 15rem;
-  background: url(../images/banner1-e-um-restaurante.jpg) no-repeat;
+  background: url(../images/banner-2-e-um-restaurante.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1158,7 +1189,7 @@ border:2px solid white;
 }
 #menu-two .menu-two-section{
   width: 100%;
-  height: 48rem;
+  height: auto;
   background:url(../images/bacalhau--.png) no-repeat center;
   background-size: cover;
   text-align: center;
@@ -1458,8 +1489,6 @@ border:2px solid white;
                                               É Uma Esplanada
 --------------------------------------------------------------------------------------------------------------*/
 
-
-/* --------------------------------- Banner-class section ---------------------------------*/
 #banner-class-restaurant-one{
   width: 100%;
   background: url(../images/Crescer-Restaurante-2.jpg) no-repeat;
@@ -1504,7 +1533,7 @@ border:2px solid white;
 }
 
 #banner-class-restaurant-one .explore-banner-class-restaurant-one .btn{
-  background:  rgba(116,103,67,1);
+  background: #2ea2cc;
   width: 200px;
   height: 60px;
   text-align: center;
@@ -1521,13 +1550,292 @@ border:2px solid white;
 }
 #banner-class-restaurant-one .explore-banner-class-restaurant-one .btn:hover {
   background: #ffffff;
+  border-color:#ffffff ;
+  color: #0339A6;
+  border: 2px solid #ffffff;
+}
+/*....*/
+#banner-page-e-uma-esplanada{
+  width: 100%;
+  padding-bottom: 15rem;
+  background: url(../images/banner-bolo.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#banner-page-e-uma-esplanada .explore-banner-page-e-uma-esplanada{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#banner-page-e-uma-esplanada .explore-banner-page-e-uma-esplanada .col-lg-6{
+    margin-top: 14rem;
+    margin-left: 28rem;
+    background-color: #ffffffce;
+    padding-bottom: 2rem;
+}
+#banner-page-e-uma-esplanada .explore-banner-page-e-uma-esplanada .col-lg-6 p{
+    color: rgb(93, 91, 91);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+#banner-page-e-uma-esplanada  .btn{
+  background: #F2A25C;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: 2px solid #F2A25C;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+#banner-page-e-uma-esplanada  .btn:hover {
+  background: #ffffff;
   border-color: #ffffff;
   color: rgb(35, 35, 35);
-  border: 2px solid #bfba55;
+  border: 2px solid #F2A25C;
 }
 
 
-/* --------------------------------- Banner-background section ---------------------------------*/
+#menu-banner-e-uma-esplanada{
+  position: relative;
+}
+#menu-banner-e-uma-esplanada .banner-e-uma-esplanada-section{
+  width: 100%;
+  height: auto;
+  background:url(../images/petiscos-1-e-uma-esplanada.jpeg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  margin-top: 2rem;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding:4.375rem 0 ;
+    
+}
+#menu-banner-e-uma-esplanada .banner-e-uma-esplanada-section .col-md-6 {
+  padding-top: 22px;
+  text-align: left;
+  padding-bottom: 32px;
+}
+#menu-banner-e-uma-esplanada .banner-e-uma-esplanada-section  .col-md-6 p{
+  color: white;
+}
+#menu-banner-e-uma-esplanada .banner-e-uma-esplanada-section  .col-md-6 p:hover{
+  color: #F2A25C;
+}
+#menu-banner-e-uma-esplanada .banner-e-uma-esplanada-section  .col-md-6 h2{
+  color: #F2A25C;
+}
+#menu-banner-e-uma-esplanada .banner-e-uma-esplanada-section  .col-md-6 h3:hover{
+  color: #F2A25C;
+}
+#menu-banner-e-uma-esplanada .banner-e-uma-esplanada-section  .col-md-6 hr{
+  margin: 0;
+}
+
+/* ------------------------------- Specialties food  section ------------------------------------*/
+#food-restaurant-three{
+  padding-bottom: 10rem;
+}
+#food-restaurant-three .explore-restaurant-three .col-lg-12{
+  text-align: center;
+  align-items: center;
+}
+#food-restaurant-three .explore-restaurant-three .col-lg-12 .col-lg-4 h4{
+  font-size: 1.4rem;
+}
+#food-restaurant-three .explore-restaurant-three .col-lg-12 .col-lg-4 h4:hover{
+  font-size: 1.4rem;
+  color: #F2A25C;
+  transition: all 0.8s ease-in-out;
+}
+#food-restaurant-three .explore-restaurant-three .col-lg-12 .col-lg-4 img:hover{
+  border: 2px solid #F2A25C;
+  transition: all 0.8s ease-in-out;
+}
+#food-restaurant-three .explore-restaurant-three .col-lg-12 h2 {
+  font-size: 2rem;
+  margin-top: 8rem;
+  font-weight: bold;
+  line-height: 3rem;
+  letter-spacing:0;
+}
+
+#chef-restaurant-three{
+  margin: 0; 
+
+ }
+ #chef-restaurant-three .explore-chef-restaurant-three{
+   width: 100%;
+   padding-bottom: 2rem;
+ }
+ 
+ #chef-restaurant-three .explore-chef-restaurant-three .row{
+   margin-top: 4rem;
+ }
+ #chef-restaurant-three .explore-chef-restaurant-three .col-lg-4 img{
+   border:2px solid #F2A25C;
+ }
+ #chef-restaurant-three .explore-chef-restaurant-three .col-lg-4 img:hover{
+ border:2px solid white;
+ }
+ #chef-restaurant-three .explore-chef-restaurant-three .col-lg-5 {
+     background: white;
+     margin-top: 2rem;
+     border:2px solid white;
+  }
+  #chef-restaurant-three .explore-chef-restaurant-three .col-lg-5:hover{
+     border:2px solid #F2A25C ;
+  }
+  
+ #chef-restaurant-three .explore-chef-restaurant-three .col-lg-6 img {
+   border:2px solid white;
+ }
+ #chef-restaurant-three .explore-chef-restaurant-three .col-lg-6 img:hover{
+   border:2px solid #F2A25C ;
+ }
+ #chef-restaurant-three .explore-chef-restaurant-three .col-lg-8 .col-lg-5{
+   padding-bottom: 2rem;
+ }
+ #chef-restaurant-three .explore-chef-restaurant-three .col-lg-8 h2 span {
+   font-size: 3rem;
+   margin: 0;
+   margin-top: 6rem;
+   font-weight: 700;
+   color: #F2A25C;
+   letter-spacing:0;
+   line-height: 2rem;
+ }
+ #chef-restaurant-three .explore-chef-restaurant-three .col-lg-8 h4 {
+   font-size: 1.4rem;
+   margin: 0;
+   margin-top: 1rem;
+   font-weight: 700;
+   color: rgb(103, 101, 101);
+   letter-spacing:0;
+   line-height: 2rem;
+ }
+ 
+ #chef-restaurant-three .explore-chef-restaurant-three .col-lg-8 p{
+   color: rgb(35, 35, 35);
+   margin-top: 3rem;
+   line-height: 2rem;
+ }
+
+#menu-e-uma-esplanada  .col-md-6{
+  padding-top: 22px;
+  padding-bottom: 32px;
+}
+#menu-e-uma-esplanada .col-md-6 p:hover{
+  color: #F2A25C;
+}
+#menu-e-uma-esplanada  .col-md-6 h3{
+  font-size: 1.5rem;
+ 
+}
+#menu-e-uma-esplanada  .col-md-6 h3:hover{
+  color: #F2A25C;
+}
+#menu-e-uma-esplanada  .col-md-6 hr{
+  margin: 0;
+}
+#menu-e-uma-esplanada .col-md-6 img:hover {
+  border: 1px solid #F2A25C;
+}
+
+#menu-e-uma-esplanada .col-md-4 {
+  padding-bottom: 32px;
+}
+
+#menu-e-uma-esplanada .col-md-4 img {
+  padding-top: 12px;
+}
+
+#menu-e-uma-esplanada  .btn{
+  background: #F2A25C;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: 2px solid #F2A25C;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+#menu-e-uma-esplanada .btn:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: rgb(35, 35, 35);
+  border: 2px solid #F2A25C;
+}
+
+
+#reserve-e-uma-esplanada .col-md-4 {
+  padding-left: 0px;
+}
+#reserve-e-uma-esplanada  {
+  margin-top: 10rem;
+}
+#reserve-e-uma-esplanada .col-md-12 {
+  padding-left: 0;
+}
+
+#reserve-e-uma-esplanada  form {
+  padding-top: 32px;
+}
+#reserve-e-uma-esplanada .form-control {
+  border: 2px solid #d1cfcf;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+#reserve-e-uma-esplanada  .form-control:hover {
+  border-color: #F2A25C;
+}
+
+#reserve-e-uma-esplanada  input {
+  height: 50px;
+}
+
+#reserve-e-uma-esplanada  input[type="submit"] {
+  background: #F2A25C;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+}
+
+#reserve-e-uma-esplanada  input[type="submit"]:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #444;
+  border: 2px solid #F2A25C;
+}
+
+
+
+
+/*PAGE MAIN OF THE RESTAURANTS*/
+
+/* --------------------------------- banner-restaurant-two section ---------------------------------*/
 #banner-restaurant-two{
   width: 100%;
   background-color:#ae9a64; 
@@ -1575,7 +1883,7 @@ border:2px solid white;
 }
 
 #banner-restaurant-two .btn{
-  background: rgba(116,103,67,1);
+  background: #2ea2cc;
   width: 200px;
   border: dotted;
   height: 60px;
@@ -1593,9 +1901,9 @@ border:2px solid white;
 }
 #banner-restaurant-two .btn:hover {
   background: #ffffff;
-  border-color: #ffffff;
-  color: rgb(35, 35, 35);
-  border: 2px solid rgba(17, 17, 17, 0.411);
+  border-color:#ffffff ;
+  color: #0339A6;
+  border: 2px solid #ffffff;
 }
 
 /* --------------------------------- Banner-Restaurant-three ---------------------------------*/
@@ -1615,7 +1923,7 @@ border:2px solid white;
 }
 #banner-restaurant-three .explore-banner-restaurant-three .container .row .col-lg-12 h1{
     color:white;
-    margin-top: 4%;
+    margin-top: 6%;
     margin-left:3rem;
     font-size: 3rem;
     position: absolute;     
@@ -1648,7 +1956,7 @@ border:2px solid white;
 }
 
 #banner-restaurant-three .btn{
-  background: rgba(116,103,67,1);
+  background: #2ea2cc;
   width: 200px;
   border: dotted;
   height: 60px;
@@ -1666,9 +1974,9 @@ border:2px solid white;
 }
 #banner-restaurant-three .btn:hover {
   background: #ffffff;
-  border-color: #ffffff;
-  color: rgb(35, 35, 35);
-  border: 2px solid rgba(17, 17, 17, 0.411);
+  border-color:#ffffff ;
+  color: #0339A6;
+  border: 2px solid #ffffff;
 }
 
 /* --------------------------------- Banner-drinks ---------------------------------*/
@@ -1679,7 +1987,7 @@ border:2px solid white;
   background: url(../images/banner-e-um-almoco.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 80vh;
+  height: 75vh;
   position: relative;
 }
 #banner-restaurant-four .explore-banner-restaurant-four {
@@ -1692,14 +2000,14 @@ border:2px solid white;
 #banner-restaurant-four .explore-banner-restaurant-four .container .row .col-lg-12 h1{
     color:white;
     margin-top: 3%;
-    font-size: 4rem;   
+    font-size: 3rem;  
 }
 #banner-restaurant-four .explore-banner-restaurant-four .container .row .col-lg-12 p{
   color:white;
   margin-top: 3%;
 }
 #banner-restaurant-four .btn{
-  background: rgba(116,103,67,1);
+  background: #2ea2cc;
   width: 200px;
   border: dotted;
   height: 60px;
@@ -1717,43 +2025,13 @@ border:2px solid white;
 }
 #banner-restaurant-four .btn:hover {
   background: #ffffff;
-  border-color: #ffffff;
-  color: rgb(35, 35, 35);
-  border: 2px solid rgba(17, 17, 17, 0.411);
+  border-color:#ffffff ;
+  color: #0339A6;
+  border: 2px solid #ffffff;
 }
 
 
-/* --------------------------------Menu Section É Uma Esplanada------------------------------------*/
-#page-menu{
-  margin: 0;
-  background-color:#323232; 
-}
-#page-menu .explore-page-menu .row{
-  margin-top: 2rem;
-  text-align: justify;
-  padding-bottom: 2rem;
-}
 
-#page-menu .explore-page-menu .col-lg-12{
-  box-shadow: 5px 5px 2px 1px #bfba553c;
-  margin-top: 4rem;
-  
-}
-#page-menu .explore-page-menu .col-lg-12 .card hr{
-  border-color:#ae9a64 ;
-}
-#page-menu .explore-page-menu .col-lg-12 .card h2{
-  color:#ae9a64 ;
-}
-#page-menu .explore-page-menu .col-lg-12 .card p{
- color:#777 ;
-}
-
-#page-menu .explore-page-menu .col-lg-12 .card h3{
-  color:#ae9a64 ;
-  font-size:1.7rem;
- 
-}
 
 
 
@@ -2051,7 +2329,7 @@ footer .footer-copyright {
   }
  
   #banner-restaurant-two .explore-banner-restaurant-two .col-lg-7 h3{
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 0;
     margin: 2rem;
   }

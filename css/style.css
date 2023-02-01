@@ -292,6 +292,10 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav > li a:hover {
     color: #0339A6 !important;
 }
+/* to navbar of the é uma mesa together with color brand */
+.navbar-default .navbar-nav > li a.brand-is-a-table:hover {
+  color: #F2B035 !important;
+}
 /* to navbar of the é uma esplanada together with color brand */
 .navbar-default .navbar-nav > li a.a--brand:hover {
   color: #F2A25C !important;
@@ -316,6 +320,14 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav > .active > a:focus {
     color: #0339A6;
     background-color: transparent;
+}
+/* to navbar of the é uma mesa together with color brand fixed */
+.navbar-default .navbar-nav > .active-brand-e-uma-mesa > .brand-is-a-table,
+.navbar-default .navbar-nav > .active-brand-e-uma-mesa > a.brand-is-a-table:hover,
+.navbar-default .navbar-nav > .active-brand-e-uma-mesa > a.brand-is-a-table:focus {
+  color: #F2B035;
+  font-weight: 560;
+  background-color: transparent;
 }
 /* to navbar of the é uma esplanada together with color brand fixed */
 .navbar-default .navbar-nav > .active-brand-e-uma-esplanada > .a--brand,
@@ -377,12 +389,12 @@ a:hover, a:active, a:focus {
 }
 
 .main-home {
-  background: url('../images/Crescer-Restaurante-1.jpg') no-repeat;
+  background: url('../images/gacode_image_of_the_restaurant_to_poor_people.png') no-repeat;
   height: 100vh;
 }
 
 .main-eumamesa {
-  background: url('../images/pizza-e-uma-mesa.png') no-repeat;
+  background: url('../images/banner-galeria-eumamesa.jpg') no-repeat;
 }
 .main-gallery-eumamesa {
   background: url('../images/banner-galeria-eumamesa.jpg') no-repeat;
@@ -461,117 +473,7 @@ a:hover, a:active, a:focus {
   border-color: #ffffff;
   color: #ffffff;
 }
-#project{
-  margin: 0;
-}
-#project .explore-project .card{
-  border: none; 
-  background-image:white;
-  color: rgb(35, 35, 35);
-  align-items: center;
-}
 
-
-#project .explore-project .card img{
-  width: 80%;
-  -webkit-box-shadow: 122px 127px 0px -94px rgba(191,186,85,1);
-  -moz-box-shadow: 122px 127px 0px -94px rgba(191,186,85,1);
-  box-shadow: 122px 127px 0px -94px rgba(191,186,85,1);
-
-}
-#project .explore-project .card img:hover{
-  box-shadow: 0 0 0 2px #bfba55;
-  transition: all .4s ease-out 0s;
-}
-#project .explore-project .card p{
-  color: rgb(35, 35, 35);
-  margin: 2rem;
-}
-
-#project .explore-project .card h3{
- padding: 1.5rem;
-
-}
-#project .explore-project .card h3 span{
-  font-size: 1.9rem;
-  color: #bfba55;
-}
-
-.text_content{
-  width: 70%;
-  margin: auto;
-  color: white;
-}
-
-/* project part two */
-#project-part-two{
-  padding-bottom: 6rem;
-}
-
-#project-part-two .explore-project-part-two .card{
-  border: none; 
-  background-image:white;
-  color: rgb(35, 35, 35);
-  align-items: center;
-}
-
-
-#project-part-two .explore-project-part-two .card img{
-  width: 80%;
-  margin: 1.3rem;
-  -webkit-box-shadow: 122px 127px 0px -94px rgba(191,186,85,1);
-  -moz-box-shadow: 122px 127px 0px -94px rgba(191,186,85,1);
-  box-shadow: 122px 127px 0px -94px rgba(191,186,85,1);
-
-}
-#project-part-two .explore-project-part-two .card img:hover{
-  box-shadow: 0 0 0 2px #bfba55;
-  transition: all .4s ease-out 0s;
-}
-#project-part-two .explore-project-part-two.card p{
-  color: rgb(35, 35, 35);
-  margin: 2rem;
-}
-
-
-#project-part-two .explore-project-part-two .card h3 span{
-  font-size: 1.9rem;
-  color: #bfba55;
-}
-
-
-#project h4 {
-  color: #bfba55;
-}
-
-#project .btn , #project-part-two .btn{
-  background: #bfba55;
-  border: 2px solid #ffffff;
-  border-radius: 100px;
-  color: #444;
-  font-family: 'Merriweather', serif;
-  font-size: 10px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding: 13px 22px;
-  margin-top: 20px;
-  transition: all 0.4s ease-in-out;
-}
-
-#project .btn:hover, #project-part-two .btn:hover {
-  background: #ffffff;
-  border-color: #ffffff;
-  border: 2px solid #bfba55;
-}
-
-.center{
-  text-align: center;
-}
-.espaco{
-  margin-top: -1rem;
-  border: 2px solid #cbc9c9;
-}
 
 /*-------------------------------------------------------------------------------------------------------------------
                                                         To All The Pages Sections 
@@ -715,6 +617,156 @@ a:hover, a:active, a:focus {
   color: rgb(35, 35, 35);
   border: 2px solid #F2B035;
 }
+/*.............................*/
+#food-specialty-restaurant-is-a-table{
+  padding-bottom: 10rem;
+  
+}
+#food-specialty-restaurant-is-a-table .explore-food-is-a-table .col-lg-12{
+text-align: center;
+align-items: center;
+}
+#food-specialty-restaurant-is-a-table .explore-food-is-a-table .col-lg-12 .col-lg-4 h4{
+font-size: 1.4rem;
+}
+#food-specialty-restaurant-is-a-table .explore-food-is-a-table .col-lg-12 .col-lg-4 h4:hover{
+font-size: 1.4rem;
+color: #F2B035;
+transition: all 0.8s ease-in-out;
+}
+#food-specialty-restaurant-is-a-table .explore-food-is-a-table .col-lg-12 .col-lg-4 img:hover{
+  border: 2px solid #F2B035;
+  transition: all 0.8s ease-in-out;
+}
+#food-specialty-restaurant-is-a-table .explore-food-is-a-table .col-lg-12 h2 {
+font-size: 2rem;
+margin-top: 8rem;
+font-weight: bold;
+line-height: 3rem;
+letter-spacing:0;
+}
+
+/*--------------------------*/
+#chef-is-a-table{
+  margin: 0; 
+
+ }
+ #chef-is-a-table .explore-chef-is-a-table{
+   width: 100%;
+   padding-bottom: 2rem;
+ }
+ 
+ #chef-is-a-table .explore-chef-is-a-table .row{
+   margin-top: 4rem;
+ }
+
+
+ 
+  
+ #chef-is-a-table .explore-chef-is-a-table .col-lg-6 img {
+   border:2px solid white;
+ }
+
+ #chef-is-a-table .explore-chef-is-a-table .col-lg-8 .col-lg-5{
+   padding-bottom: 2rem;
+ }
+ #chef-is-a-table .explore-chef-is-a-table .col-lg-8 h2 span {
+   font-size: 3rem;
+   margin: 0;
+   margin-top: 6rem;
+   font-weight: 700;
+   color: #F2B035;
+   letter-spacing:0;
+   line-height: 2rem;
+ }
+ #chef-is-a-table .explore-chef-is-a-table.col-lg-8 h4 {
+   font-size: 1.4rem;
+   margin: 0;
+   margin-top: 1rem;
+   font-weight: 700;
+   color: rgb(103, 101, 101);
+   letter-spacing:0;
+   line-height: 2rem;
+ }
+ 
+ #chef-is-a-table .explore-chef-is-a-table .col-lg-8 p{
+   color: rgb(35, 35, 35);
+   margin-top: 3rem;
+   line-height: 2rem;
+ }
+ /*......*/
+ #banner-class-is-a-table{
+  margin: 0;
+  background-image: linear-gradient(#f8f7fc );
+  background-size: cover;
+  height: auto;
+  align-items: center;
+}
+#banner-class-is-a-table .explore-banner-class-is-a-table .row{
+  margin-top: 2rem;
+  
+}
+
+#banner-class-is-a-table .explore-banner-class-is-a-table  .col-lg-12{
+  text-align: center;
+  margin: 2rem;
+  align-items: center;
+}
+
+#banner-class-is-a-table .explore-banner-class-is-a-table  .col-lg-12 h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin: 2rem;
+  color: black;
+  font-weight: bold;
+  line-height: 3rem;
+  padding-bottom: 14px;
+  margin-bottom: 0px;
+  letter-spacing:0;
+
+}
+
+#banner-class-is-a-table .explore-banner-class-is-a-table  .col-lg-12 .col-lg-2{
+  margin: 1rem;
+  border: 2px solid white; 
+}
+#banner-class-is-a-table .explore-banner-class-is-a-table  .col-lg-12 .col-lg-2:hover{
+  border: 2px solid #F2B035; 
+  transition: all 0.4s ease-in-out;
+}
+#banner-class-is-a-table .explore-banner-class-is-a-table  .col-lg-12 .col-lg-2 img{
+  margin:0;
+}
+/*.....................*/
+
+#menu-is-a-table  .col-md-6{
+  padding-top: 22px;
+  padding-bottom: 32px;
+}
+#menu-is-a-table .col-md-6 p:hover{
+  color: #F2B035;
+}
+#menu-is-a-table .col-md-6 h3{
+  font-size: 1.5rem;
+}
+#menu-is-a-table  .col-md-6 h3:hover{
+  color: #F2B035;
+}
+#menu-is-a-table .col-md-6 hr{
+  margin: 0;
+}
+#menu-is-a-table .col-md-6 img:hover {
+  border: 1px solid #F2B035;
+}
+
+#menu-is-a-table .col-md-4 {
+  padding-bottom: 32px;
+}
+
+#menu-is-a-table .col-md-4 img {
+  padding-top: 12px;
+}
+
 
 /*------------------------------------------*/
 #menu-two-one{
@@ -1265,143 +1317,158 @@ a:hover, a:active, a:focus {
 --------------------------------------------------------------------------------------------------------------*/
 
 /*--------------------------------------- Home Page Section-------------------------------------------- */
+.h1{
+  color: #03A688;
+  font-size: 62px;
+  padding-bottom: 14px;
+  margin-bottom: 0px
+}
 #page-home-two{
   margin: 0;
-  background-color: whitesmoke;
- 
+  width: 100%;
+  height: auto;
+  background-color:whitesmoke;
+  position: relative;
 }
+
 #page-home-two .explore-page-home-two .row{
   margin-top: 2rem;
   padding-bottom: 2rem;
+ 
 }
 
-#page-home-two .explore-page-home-two .col-lg-6{
-  background-image: linear-gradient(#f8f7fc);
-  margin-top: 4rem;
-  
-
-}
-#page-home-two .explore-page-home-two .col-lg-12 .col-lg-4{
-  box-shadow:
-  2em 4em 6em -2em rgba(0, 0, 0, 0.372),
-  1em 2em 3.5em -2.5em rgba(0,0,0,0.372);
-  border-radius: .5em;
-}
-#page-home-two .explore-page-home-two .col-lg-12 .col-lg-4 p{
-  margin: 1rem;
-}
-#page-home-two .explore-page-home-two .col-lg-12 {
-  background-image: linear-gradient(#f8f7fc );
-}
 
 #page-home-two .explore-page-home-two .col-lg-12 h2 {
   font-size: 2rem;
-  color: rgb(35, 35, 35);
+  text-align: center;
+  color: #03A688;
   font-weight: 600;
   line-height: 2.6rem;
   letter-spacing:0;
 }
 #page-home-two .explore-page-home-two .col-lg-12 h4 {
   font-size: 1.5rem;
-  color: rgb(93, 91, 91);
-  font-weight: 600;
-  line-height: 2.6rem;
-  letter-spacing:0;
+  color: rgb(35, 35, 35);
+  font-weight: 500;
+  margin: 2rem;
+  line-height: 3rem;
+  letter-spacing:.1rem;
   margin: 1rem;
+}
+#page-home-two .explore-page-home-two .col-lg-12 h4 span{
+  color: #F24E29;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 #page-home-two .explore-page-home-two .col-lg-12 h3{
-  color: #bfba55;
+  color: #03A688;
+  text-align: center;
   margin: 1rem;
 }
 
-#page-home-two .explore-page-home-two .col-lg-6 .card h3{
-    margin-top: 2rem;
+/*..........................*/
+#banner-is-a-lunch{
+  width: 100%;
+  position: relative;
+  height: auto;
+  padding-bottom: 15rem;
+  background: url(../images/espauete-3-.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed,scroll;
 }
-
-
-#page-home-two .explore-page-home-two .col-lg-6 .card h4{
-  font-size: 1.8rem;
-  color: #444;
-  font-weight: 300;
-  line-height: 4rem;
-  letter-spacing:0;
-}
-
-/*---------------------------------------Main Food Section -----------------------------------*/
-#main-food{
-  margin: 0;
-  margin-top: 4rem;
-  background-color: white;
- 
-}
-#main-food .explore-main-food .row{
-  margin-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-#main-food .explore-main-food .col-lg-6{
-  background-image: linear-gradient(#f8f7fc);
-}
-
-#main-food .explore-main-food .col-lg-12 {
-  background-image: linear-gradient(#f8f7fc );
+#banner-is-a-lunch .explore-banner-is-a-lunch{
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-#main-food .explore-main-food .col-lg-12 h2 {
-  font-size: 2rem;
-  color: rgb(35, 35, 35);
-  font-weight: 600;
-  line-height: 2.6rem;
-  letter-spacing:0;
-}
-#main-food .explore-main-food .col-lg-12 h4 {
-  font-size: 1.5rem;
-  color: rgb(93, 91, 91);
-  font-weight: 600;
-  line-height: 2rem;
-  letter-spacing:0;
-}
-#main-food .explore-main-food .col-lg-12 h3{
-  color: #bfba55;
-}
-#main-food .explore-main-food .col-lg-6 .card{
-  margin: 3rem;
-}
-#main-food .explore-main-food .col-lg-6 .card h3{
-    margin-top: 2rem;
+#banner-is-a-lunch .explore-banner-is-a-lunch .col-lg-12{
+    margin-top: 20%;
+    background-color:transparent;
+    padding-bottom: 2rem;
 }
 
-#main-food .explore-main-food .col-lg-6 .card h4{
-  font-size: 1.8rem;
-  color: #444;
-  font-weight: 300;
-  line-height: 2rem;
-  letter-spacing:0;
+#banner-is-a-lunch .explore-banner-is-a-lunch .col-lg-12 h3{
+  color: white;
+}
+#banner-is-a-lunch .explore-banner-is-a-lunch .col-lg-12 p{
+    color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 26px;
+    letter-spacing: 0.2px;
 }
 
-#main-food  .btn{
-  background: #bfba55;
+#banner-is-a-lunch .btn{
+  background: #03A688;
   width: 200px;
   height: 60px;
   text-align: center;
   border: 2px solid #ffffff;
-  color: #444;
+  color: white;
   font-family: 'Merriweather', serif;
   font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 19px 22px;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   transition: all 0.4s ease-in-out;
 }
-#main-food  .btn:hover {
+#banner-is-a-lunch .btn:hover {
   background: #ffffff;
   border-color: #ffffff;
+  color: rgb(35, 35, 35);
   border: 2px solid #bfba55;
 }
 
+
+/*---------------------------------------Main Food Section -----------------------------------*/
+#main-food{
+  margin: 0;
+  width: 100%;
+  position: relative;
+  height: auto;
+  position: relative;
+  padding-bottom: 2rem;
+  background: url(../images/almoco.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed,scroll;
+ 
+}
+#main-food .explore-main-food .row{
+  margin-top: 2rem;
+}
+
+#main-food .explore-main-food .col-lg-6{
+  text-align: justify;
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+
+
+
+#main-food .explore-main-food .col-lg-12 h3{
+  color: #03A688;
+  text-align: center;
+}
+
+
+#main-food .explore-main-food .col-lg-6 .card p{
+  margin-top: 15%;
+  font-size: 1.8rem;
+  margin: 3rem;
+  color: white;
+  font-weight: 300;
+  line-height: 3rem;
+  letter-spacing:0;
+}
+#main-food .explore-main-food .col-lg-6 .card p span{
+  color: #03A688;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
 
 /*     ---------------------------------------------- */
 #chef-e-um-almoco{
@@ -1421,12 +1488,13 @@ a:hover, a:active, a:focus {
    margin-top: 4rem;
   
  }
+ 
  #chef-e-um-almoco .explore-chef-e-um-almoco .col-lg-5{
   background-color: #ffffffce;
   padding: 2.6rem;
 }
 #chef-e-um-almoco .explore-chef-e-um-almoco .col-lg-5 h2{
-  color: #bfba55;
+  color: #03A688;
   font-weight: 700;
 }
 #chef-e-um-almoco .explore-chef-e-um-almoco .col-lg-5 p{
@@ -1440,45 +1508,29 @@ a:hover, a:active, a:focus {
   line-height: 2rem;
   letter-spacing:0;
 }
- #chef-e-um-almoco  .btn{
-   background: #bfba55;
-   border: 2px solid transparent;
-   color: #444;
-   font-family: 'Merriweather', serif;
-   font-size: 1.3rem;
-   font-weight: bold;
-   letter-spacing: 2px;
-   text-transform: uppercase;
-   padding: 13px 22px;
-   margin-top: 2rem;
-   transition: all 0.4s ease-in-out;
- }
- 
- #chef-e-um-almoco .btn:hover {
-   background: #ffffff;
-   border-color: #ffffff;
-   border: 2px solid #bfba55;
- }
+
 
  /* --------------------------------Menu Section É Um Almoço------------------------------------*/
- #page-home-menu-e-um-almoco{
+ #page-menu{
   margin: 0;
-  background-color: white;
+  background: url(../images/almoco.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 2rem;
  
 }
-#page-home-menu-e-um-almoco .explore-page-home-menu-e-um-almoco .row{
+#page-menu .explore-page-menu .row{
   margin-top: 2rem;
   text-align: justify;
   padding-bottom: 2rem;
 }
-
-#page-home-menu-e-um-almoco .explore-page-home-menu-e-um-almoco .col-lg-12{
+#page-menu .explore-page-menu  .col-lg-12{
   background-image: linear-gradient(#ffffff8a,#bfba5528);
   box-shadow: 5px 5px 2px 1px #bfba553c;
   margin-top: 4rem;
   
 }
-#page-home-menu-e-um-almoco .explore-page-home-menu-e-um-almoco .col-lg-12 .card h3{
+#page-menu .explore-page-menu  .col-lg-12 .card h3{
   
   font-size:1.7rem;
 
@@ -1489,71 +1541,6 @@ a:hover, a:active, a:focus {
                                               É Uma Esplanada
 --------------------------------------------------------------------------------------------------------------*/
 
-#banner-class-restaurant-one{
-  width: 100%;
-  background: url(../images/Crescer-Restaurante-2.jpg) no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: auto;
-  position: relative;
-}
-
-#banner-class-restaurant-one .explore-banner-class-restaurant-one .row{
-  align-items: center;
-  padding: 3rem;
-  justify-content: center;
-  text-align: center;
-}
-
-#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-6{
-    margin-top: 4%;
-    background-color: transparent;
-    padding-bottom: 2rem;
-}
-#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-6 h3{
-  color: white;
-  font-weight: 600;
-  text-align: center;
-  line-height: 1.2em;
-  font-size: 25px;
-}
-#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-6 p{
-    color: white;
-    margin-top: 0;
-    font-size: 1.6rem;
-    line-height: 26px;
-    letter-spacing: 0.2px;
-}
-
-
-#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-5{
-  margin-top: 8%;
-  background-color: transparent;
-  padding-bottom: 2rem;
-}
-
-#banner-class-restaurant-one .explore-banner-class-restaurant-one .btn{
-  background: #2ea2cc;
-  width: 200px;
-  height: 60px;
-  text-align: center;
-  border: 2px solid #ffffff;
-  color: white;
-  font-family: 'Merriweather', serif;
-  font-size: 1.3rem;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding: 19px 22px;
-  margin-top: 2rem;
-  transition: all 0.4s ease-in-out;
-}
-#banner-class-restaurant-one .explore-banner-class-restaurant-one .btn:hover {
-  background: #ffffff;
-  border-color:#ffffff ;
-  color: #0339A6;
-  border: 2px solid #ffffff;
-}
 /*....*/
 #banner-page-e-uma-esplanada{
   width: 100%;
@@ -1834,8 +1821,75 @@ a:hover, a:active, a:focus {
 
 
 /*PAGE MAIN OF THE RESTAURANTS*/
+/*Page index*/
+#banner-class-restaurant-one{
+  width: 100%;
+  background: url(../images/Crescer-Restaurante-1.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  position: relative;
+}
+
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .row{
+  align-items: center;
+  padding: 3rem;
+  justify-content: center;
+  text-align: center;
+}
+
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-6{
+    margin-top: 4%;
+    background-color: transparent;
+    padding-bottom: 2rem;
+}
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-6 h3{
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2em;
+  font-size: 25px;
+}
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-6 p{
+    color: white;
+    margin-top: 0;
+    font-size: 1.6rem;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .col-lg-5{
+  margin-top: 8%;
+  background-color: transparent;
+  padding-bottom: 2rem;
+}
+
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .btn{
+  background: #2ea2cc;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 19px 22px;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+#banner-class-restaurant-one .explore-banner-class-restaurant-one .btn:hover {
+  background: #ffffff;
+  border-color:#ffffff ;
+  color: #0339A6;
+  border: 2px solid #ffffff;
+}
 
 /* --------------------------------- banner-restaurant-two section ---------------------------------*/
+
 #banner-restaurant-two{
   width: 100%;
   background-color:#ae9a64; 
@@ -1910,7 +1964,7 @@ a:hover, a:active, a:focus {
 #banner-restaurant-three{
   width: 100%;
   background-color:#ae9a64; 
-  background: url(../images/coffee-e-uma-esplanada.jpg) no-repeat;
+  background: url(../images/banner-e-uma-esplanada.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 70vh;
@@ -2136,6 +2190,14 @@ footer  .col-md-12 .link li a:hover {
   transform: scale(1.1);
 }
 
+footer  .col-md-12  li a.link-is-a-table:hover {
+  color: #F2B035;
+  transform: scale(1.1);
+}
+footer  .col-md-12  li a.link-is-a-esplanade:hover {
+  color: #F2A25C;
+  transform: scale(1.1);
+}
 footer hr {
   border-color: #777;
   margin-top: 30px;
@@ -2216,7 +2278,28 @@ footer .footer-copyright {
     background-color: white;
 }
 
-
+.social-icon li a.is-a-table{
+    border: 2px solid #292929;
+    color: #F2B035;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 19px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 22px 12px 10px 12px;
+}
+.social-icon li a.is-a-table:hover {
+  border-color: #F2B035;
+  color: #292929;
+  transform: scale(1.1);
+  background-color: white;
+}
 
 /*---------------------------------------
    Mobile Responsive         

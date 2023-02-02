@@ -292,6 +292,11 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav > li a:hover {
     color: #0339A6 !important;
 }
+/* to navbar of the its a lunch together with color brand */
+.navbar-default .navbar-nav > li a.brand-is-a-lunch:hover {
+  color: #03A688 !important;
+}
+
 /* to navbar of the é uma mesa together with color brand */
 .navbar-default .navbar-nav > li a.brand-is-a-table:hover {
   color: #F2B035 !important;
@@ -320,6 +325,14 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav > .active > a:focus {
     color: #0339A6;
     background-color: transparent;
+}
+/* to navbar of the its a lunch together with color brand fixed */
+.navbar-default .navbar-nav > .active-brand-is-a-lunch > .brand-is-a-lunch,
+.navbar-default .navbar-nav > .active-brand-is-a-lunch > a.brand-is-a-lunch:hover,
+.navbar-default .navbar-nav > .active-brand-is-a-lunch > a.brand-is-a-lunch:focus {
+  color: #03A688;
+  font-weight: 560;
+  background-color: transparent;
 }
 /* to navbar of the é uma mesa together with color brand fixed */
 .navbar-default .navbar-nav > .active-brand-e-uma-mesa > .brand-is-a-table,
@@ -488,7 +501,10 @@ a:hover, a:active, a:focus {
   padding-left: 0px;
   padding-right: 0px;
 }
-
+#gallery .col-md-4 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 #gallery .gallery-thumb {
   background-color: #ffffff;
   box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
@@ -1517,6 +1533,7 @@ letter-spacing:0;
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 2rem;
+  position: relative;
  
 }
 #page-menu .explore-page-menu .row{
@@ -1525,16 +1542,21 @@ letter-spacing:0;
   padding-bottom: 2rem;
 }
 #page-menu .explore-page-menu  .col-lg-12{
-  background-image: linear-gradient(#ffffff8a,#bfba5528);
   box-shadow: 5px 5px 2px 1px #bfba553c;
   margin-top: 4rem;
   
 }
+#page-menu .explore-page-menu  .col-lg-12 .card h2{
+  color: #03A688;
+}
+#page-menu .explore-page-menu  .col-lg-12 .card p{
+  color: white;
+  font-weight: 500;
+  
+}
 #page-menu .explore-page-menu  .col-lg-12 .card h3{
-  
-  font-size:1.7rem;
-
-  
+  color: #03A688;
+  font-size:1.7rem; 
 }
  
 /*--------------------------------------------------------------------------------------------------------------
@@ -2196,6 +2218,10 @@ footer  .col-md-12  li a.link-is-a-table:hover {
 }
 footer  .col-md-12  li a.link-is-a-esplanade:hover {
   color: #F2A25C;
+  transform: scale(1.1);
+}
+footer  .col-md-12  li a.link-is-a-lunch:hover {
+  color: #03A688;
   transform: scale(1.1);
 }
 footer hr {
